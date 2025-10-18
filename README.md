@@ -1,1 +1,0 @@
-# JoshuaAdams7.github.io
