@@ -2,8 +2,6 @@
 layout: default
 ---
 
-[SIEM Projects](./siem_projects.md).
-
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
 # SIEM Projects
