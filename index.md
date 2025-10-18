@@ -14,9 +14,9 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
-[CompTIA Security+](./siem_projects.md)
+[CompTIA Security+](./security_plus.md)
 
-[Microsoft Certified: Security Operations Analyst Associate](./siem_projects.md)
+[Microsoft Certified: Security Operations Analyst Associate](./sc200.md)
 
 ### Small image
 
