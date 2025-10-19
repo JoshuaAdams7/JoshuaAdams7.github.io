@@ -28,13 +28,13 @@ In the US, Security+ covers you under the DoD 8140 framework, enabling you to wo
 
 Given my background, I would give this exam a difficulty rating of about 7/10 and class it as being moderately difficult – comparable to an associate-level Microsoft exam. 
 
-If you already understand computer networks (maybe you have passed CompTIA’s Network+ exam or have a background in networking), how they work as well as common network protocols, this should remain around this mark in terms of difficulty. 
-If you’re completely new to IT and haven’t yet secured your first technology role, this may be somewhat more difficult to pass. 
+* If you already understand computer networks (maybe you have passed CompTIA’s Network+ exam or have a background in networking), how they work as well as common network protocols, this should remain around this mark in terms of difficulty. 
+* If you’re completely new to IT and haven’t yet secured your first technology role, this may be somewhat more difficult to pass. 
 
 ## What areas should I pay the most attention to?
 
-Know common network protocols, their associated ports and underlying transport protocols (TCP/UDP) - build flashcards for these. 
-Understand the purpose of Access Control Lists (ACLs) and have a base-level awareness of how you might configure these. 
+* Know common network protocols, their associated ports and underlying transport protocols (TCP/UDP) - build flashcards for these. 
+* Understand the purpose of Access Control Lists (ACLs) and have a base-level awareness of how you might configure these. 
 
 ## My Background
 
@@ -50,18 +50,18 @@ I purchased an exam voucher, booked the exam in and gave myself around a month. 
 
 Some quick tips:
 
-Allocate time to study each day, even if it’s just an hour. You can do this by setting up a timer on your phone or smartwatch so that you’re forced to focus for that length of time. 
-Are you into fitness? Kill two birds with one stone by running through your flashcards on your phone during your treadmill time – it works, trust me. 
+* Allocate time to study each day, even if it’s just an hour. You can do this by setting up a timer on your phone or smartwatch so that you’re forced to focus for that length of time. 
+* Are you into fitness? Kill two birds with one stone by running through your flashcards on your phone during your treadmill time – it works, trust me. 
 
 I spent just under a month working through Jason Dion’s Security+ course, then built out flashcards to use with Anki for memorising common network protocols – I leveraged Copilot. 
 
 ## Resources
 
-[CompTIA’s Security+ Overview](https://www.comptia.org/en/certifications/security/)
-[Jason Dion’s Security+ Course](https://www.udemy.com/course/securityplus/) 
-[Common Network Protocol Flashcards](./Common_Network_Protocol_Flashcards.txt)
-[Anki](https://apps.ankiweb.net/)
-[Dion Training’s Certification Security+ Vouchers](https://www.diontraining.com/products/comptia-security-voucher-gbp-701)
+* [CompTIA’s Security+ Overview](https://www.comptia.org/en/certifications/security/)
+* [Jason Dion’s Security+ Course](https://www.udemy.com/course/securityplus/) 
+* [Common Network Protocol Flashcards](./Common_Network_Protocol_Flashcards.txt)
+* [Anki](https://apps.ankiweb.net/)
+* [Dion Training’s Certification Security+ Vouchers](https://www.diontraining.com/products/comptia-security-voucher-gbp-701)
 
 ### Small image
 
