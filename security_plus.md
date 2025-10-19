@@ -4,19 +4,17 @@ layout: default
 
 [HOME](./index.md)
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
 # CompTIA Security+
 
 CompTIA’s Security+ certification is widely regarded as one of the first steps that one can take when looking to make a start on their career journey into cybersecurity. 
 
 ## Outline
 
-General security concepts (12%) 
-Threats, vulnerabilities, and mitigations (22%) 
-Security architecture (18%) 
-Security operations (28%) 
-Security program management and oversight (20%) 
+* General security concepts (12%) 
+* Threats, vulnerabilities, and mitigations (22%) 
+* Security architecture (18%) 
+* Security operations (28%) 
+* Security program management and oversight (20%) 
 
 ## Why should I attempt to obtain this certification?
 
