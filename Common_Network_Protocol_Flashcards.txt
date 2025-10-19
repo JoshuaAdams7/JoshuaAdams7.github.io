@@ -25,4 +25,5 @@ What protocol uses Ports 137–139 for LAN file sharing?	NetBIOS – TCP/UDP
 What protocol uses Ports 1645, 1646 for remote authentication over TCP?	RADIUS – TCP
 What protocol uses Ports 1812, 1813 for authentication and accounting over UDP?	RADIUS – UDP
 What protocol connects to SQL Server via Port 1433?	Microsoft SQL – TCP
+
 What protocol uses Port 119 for Usenet article distribution?	NNTP – TCP
