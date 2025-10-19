@@ -1,0 +1,28 @@
+What protocol uses Port 22 for secure remote login and file transfer?	SSH, SCP, SFTP – TCP
+Which protocol uses Port 23 for unsecured remote terminal access?	Telnet – TCP
+What authentication protocol runs on Port 88?	Kerberos – UDP
+Which protocol enables remote desktop access via Port 3389?	RDP – TCP
+What protocol uses Port 21 for transferring files?	FTP – TCP
+Which lightweight file transfer protocol uses Port 69?	TFTP – UDP
+What protocol sends email via Port 25?	SMTP – TCP
+Which ports are used for secure email sending (SMTPS)?	Ports 465, 587 – TCP
+What protocol retrieves email via Port 110?	POP3 – TCP
+Which protocol accesses email on the server via Port 143?	IMAP – TCP
+What secure version of IMAP uses Port 993?	IMAPS – TCP
+What secure version of POP3 uses Port 995?	POP3S – TCP
+What protocol uses Port 80 for web traffic?	HTTP – TCP
+What secure web protocol uses Port 443?	HTTPS – TCP
+What protocol uses Port 389 for directory access?	LDAP – TCP
+What secure version of LDAP uses Port 636?	LDAPS – TCP
+What protocol uses Port 53 for resolving domain names?	DNS – TCP/UDP
+What protocol monitors network devices via Port 161?	SNMP – UDP
+Which port receives SNMP alerts?	Port 162 – UDP
+What protocol uses Port 514 for system logging?	Syslog – UDP
+What secure logging protocol uses Port 6514?	Syslog TLS – TCP
+What protocol uses Port 445 for file and printer sharing?	SMB – TCP
+What protocol uses Port 135 for remote procedure calls?	RPC – TCP/UDP
+What protocol uses Ports 137–139 for LAN file sharing?	NetBIOS – TCP/UDP
+What protocol uses Ports 1645, 1646 for remote authentication over TCP?	RADIUS – TCP
+What protocol uses Ports 1812, 1813 for authentication and accounting over UDP?	RADIUS – UDP
+What protocol connects to SQL Server via Port 1433?	Microsoft SQL – TCP
+What protocol uses Port 119 for Usenet article distribution?	NNTP – TCP
