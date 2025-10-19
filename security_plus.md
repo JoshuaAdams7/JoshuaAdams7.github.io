@@ -57,11 +57,11 @@ I spent just under a month working through Jason Dion’s Security+ course, then
 
 Resources 
 
-CompTIA’s Security+ Overview 
-Jason Dion’s Security+ Course 
-Common Network Protocol Flashcards 
-Anki
-Dion Training’s Certification Security+ Vouchers 
+[CompTIA’s Security+ Overview](https://www.comptia.org/en/certifications/security/)
+[Jason Dion’s Security+ Course](https://www.udemy.com/course/securityplus/) 
+[Common Network Protocol Flashcards](./Common_Network_Protocol_Flashcards.txt)
+[Anki](https://apps.ankiweb.net/)
+[Dion Training’s Certification Security+ Vouchers](https://www.diontraining.com/products/comptia-security-voucher-gbp-701)
 
 ### Small image
 
