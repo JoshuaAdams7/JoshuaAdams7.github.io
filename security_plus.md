@@ -33,8 +33,8 @@ Given my background, I would give this exam a difficulty rating of about 7/10 an
 
 ## What areas should I pay the most attention to?
 
-* Know common network protocols, their associated ports and underlying transport protocols (TCP/UDP) - build flashcards for these. 
-* Understand the purpose of Access Control Lists (ACLs) and have a base-level awareness of how you might configure these. 
+* Know common network protocols, their associated ports and underlying transport protocols (TCP/UDP) - build flashcards for these, which I've conveniently linked below. 
+* Understand the purpose of Access Control Lists (ACLs) and have a base-level awareness of how you might configure these.
 
 ## My Background
 
