@@ -56,6 +56,8 @@ Some quick tips:
 
 I spent just under a month working through Jason Dion’s Security+ course, then built out flashcards to use with Anki for memorising common network protocols – I leveraged CoPilot.
 
+Stay tuned as the intention is to release more quickfire guides that document my cybersecurity professional development and hopefully help to encourage other aspirants to push forward with skilling up.
+
 Thank you for taking the time to read my post!
 
 ## Resources
