@@ -64,7 +64,7 @@ I also feel that it's important to invest time into building your professional n
 
 For me, as I have previous experience with Microsoft's 365 and Azure cloud services, is to take on Microsoft's SC-200 ([Microsoft Certified: Security Operations Analyst Associate](https://learn.microsoft.com/en-us/credentials/certifications/security-operations-analyst/?practice-assessment-type=certification) exam.
 
-## Final thoughts
+## Final Thoughts
 
 Stay tuned as the intention is to release more quickfire guides like this that document my cybersecurity professional development, showcase hands-on projects, and hopefully help to encourage other aspirants to push forward with skilling up.
 
