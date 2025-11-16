@@ -6,6 +6,8 @@ layout: default
 
 # CompTIA Security+
 
+![Branching](./security_plus.jpg)
+
 CompTIA’s Security+ certification is widely regarded as one of the first steps that one can take when looking to make a start on their career journey into cybersecurity. 
 
 ## Outline
