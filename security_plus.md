@@ -51,7 +51,9 @@ Some quick tips:
 * Allocate time to study each day, even if it’s just an hour. You can do this by setting up a timer on your phone or smartwatch so that you’re forced to focus for that length of time. 
 * Are you into fitness? Kill two birds with one stone by running through your flashcards on your phone during your treadmill time – it works, trust me. 
 
-I spent just under a month working through Jason Dion’s Security+ course, then built out flashcards to use with Anki for memorising common network protocols – I leveraged Copilot. 
+I spent just under a month working through Jason Dion’s Security+ course, then built out flashcards to use with Anki for memorising common network protocols – I leveraged Copilot.
+
+Thank you for taking the time to read my post!
 
 ## Resources
 
@@ -60,11 +62,3 @@ I spent just under a month working through Jason Dion’s Security+ course, then
 * [Common Network Protocol Flashcards](./Common_Network_Protocol_Flashcards.txt)
 * [Anki](https://apps.ankiweb.net/)
 * [Dion Training’s Certification Security+ Vouchers](https://www.diontraining.com/products/comptia-security-voucher-gbp-701)
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
