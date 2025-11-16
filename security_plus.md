@@ -62,7 +62,7 @@ Your next step after becoming Security+ certified will depend upon factors like 
 
 I also feel that it's important to invest time into building your professional network and personal brand via a platform like LinkedIn, if you don't have a profile set up yet.
 
-For me, as I have previous experience with Microsoft's 365 and Azure cloud services, is to take on Microsoft's SC-200 ([Microsoft Certified: Security Operations Analyst Associate](https://learn.microsoft.com/en-us/credentials/certifications/security-operations-analyst/?practice-assessment-type=certification) exam.
+For me, as I have previous experience with Microsoft's 365 and Azure cloud services, the next step is to take on Microsoft's SC-200 ([Microsoft Certified: Security Operations Analyst Associate](https://learn.microsoft.com/en-us/credentials/certifications/security-operations-analyst/?practice-assessment-type=certification) exam.
 
 ## Final Thoughts
 
