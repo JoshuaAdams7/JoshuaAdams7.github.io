@@ -64,7 +64,7 @@ For me, as I have previous experience with Microsoft's 365 and Azure cloud servi
 
 ## Final thoughts
 
-Stay tuned as the intention is to release more quickfire guides like this that document my cybersecurity professional development and hopefully help to encourage other aspirants to push forward with skilling up.
+Stay tuned as the intention is to release more quickfire guides like this that document my cybersecurity professional development, showcase hands-on projects, and hopefully help to encourage other aspirants to push forward with skilling up.
 
 Thank you for taking the time to read my post!
 
