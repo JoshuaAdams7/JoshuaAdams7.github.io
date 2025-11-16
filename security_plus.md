@@ -54,9 +54,17 @@ Some quick tips:
 * Are you into fitness? Kill two birds with one stone by running through your flashcards on your phone during your treadmill time – it works, trust me.
 * Take a look at [CompTIA’s Demo PBQ](https://www.comptia.org/en-gb/resources/test-policies/exam-development/performance-based-questions-explained/) as this will give you a very good idea on how the PBQ's are formatted and function within a testing environment.
 
-I spent just under a month working through Jason Dion’s Security+ course, then built out flashcards to use with Anki for memorising common network protocols – I leveraged CoPilot.
+I spent just under a month working through Jason Dion’s Security+ course, then built out flashcards to use with Anki for memorising common network protocols.
 
-Stay tuned as the intention is to release more quickfire guides that document my cybersecurity professional development and hopefully help to encourage other aspirants to push forward with skilling up.
+## Next Steps
+
+Your next step after becoming Security+ certified will depend upon factors like your aspirations and current role.
+
+For me, as I have previous experience with Microsoft's 365 and Azure cloud services, is to take on Microsoft's SC-200 ([Microsoft Certified: Security Operations Analyst Associate](https://learn.microsoft.com/en-us/credentials/certifications/security-operations-analyst/?practice-assessment-type=certification) exam.
+
+## Final thoughts
+
+Stay tuned as the intention is to release more quickfire guides like this that document my cybersecurity professional development and hopefully help to encourage other aspirants to push forward with skilling up.
 
 Thank you for taking the time to read my post!
 
