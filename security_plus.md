@@ -51,9 +51,10 @@ I purchased an exam voucher, booked the exam in and gave myself around a month. 
 Some quick tips:
 
 * Allocate time to study each day, even if it’s just an hour. You can do this by setting up a timer on your phone or smartwatch so that you’re forced to focus for that length of time. 
-* Are you into fitness? Kill two birds with one stone by running through your flashcards on your phone during your treadmill time – it works, trust me. 
+* Are you into fitness? Kill two birds with one stone by running through your flashcards on your phone during your treadmill time – it works, trust me.
+* Take a look at [CompTIA’s Demo PBQ]([https://www.comptia.org/en/certifications/security](https://www.comptia.org/en-gb/resources/test-policies/exam-development/performance-based-questions-explained/)/) as this will give you a very good idea on how the PBQ's are formatted and function within a testing environment.
 
-I spent just under a month working through Jason Dion’s Security+ course, then built out flashcards to use with Anki for memorising common network protocols – I leveraged Copilot.
+I spent just under a month working through Jason Dion’s Security+ course, then built out flashcards to use with Anki for memorising common network protocols – I leveraged CoPilot.
 
 Thank you for taking the time to read my post!
 
