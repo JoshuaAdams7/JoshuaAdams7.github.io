@@ -58,7 +58,7 @@ I spent just under a month working through Jason Dion’s Security+ course, then
 
 ## Next Steps
 
-Your next step after becoming Security+ certified will depend upon factors like your aspirations and current role.
+Your next step after becoming Security+ certified will depend upon factors like your aspirations and current role. Try to think about which area of cybsecurity you'd like to work in and you can then plot out your next steps from there. That said, I recommend investing some time into cloud/cloud security to augment your resume, so it may be worth taking a look at either Microsoft's AZ-900 ([Microsoft Certified: Azure Fundamentals](https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/?practice-assessment-type=certification) or SC-900 ([Microsoft Certified: Security, Compliance, and Identity Fundamentals](https://learn.microsoft.com/en-us/credentials/certifications/security-compliance-and-identity-fundamentals/?practice-assessment-type=certification) to give yourself an edge over those without knowledge in this area.
 
 I also feel that it's important to invest time into building your professional network and personal brand via a platform like LinkedIn, if you don't have a profile set up yet.
 
