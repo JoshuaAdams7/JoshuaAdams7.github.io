@@ -2,11 +2,15 @@
 layout: default
 ---
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# SIEM Projects
+# Projects
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+
+[Incident Monitoring](./siem_projects.md)
+
+[Sentinel Data Connector Configuration](./siem_projects.md)
+
+[Incident Monitoring](./siem_projects.md)
 
 [Incident Monitoring](./siem_projects.md)
 
@@ -17,11 +21,3 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 [CompTIA Security+](./security_plus.md)
 
 [Microsoft Certified: Security Operations Analyst Associate](./sc200.md)
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
