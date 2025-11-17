@@ -8,6 +8,8 @@ layout: default
 
 [Sentinel Data Connector Configuration](./siem_projects.md)
 
+[Detections in Sentinel](./siem_projects.md)
+
 [KQL](./siem_projects.md)
 
 [Security CoPilot](./siem_projects.md)
