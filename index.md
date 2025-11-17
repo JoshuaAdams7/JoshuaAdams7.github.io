@@ -8,7 +8,7 @@ layout: default
 
 [Sentinel Data Connector Configuration](./siem_projects.md)
 
-[Detections in Sentinel](./siem_projects.md)
+[Detections in Sentinel](./detections_in_sentinel.md)
 
 [Cloud Workload Protection](./siem_projects.md)
 
