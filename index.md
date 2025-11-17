@@ -4,6 +4,10 @@ layout: default
 
 # Projects
 
+Please take a look at my portfolio of completed mini cybersecurity projects that include the process I followed.
+
+## Sentinel & Defender
+
 [Incident Monitoring](./siem_projects.md)
 
 [Sentinel Data Connector Configuration](./siem_projects.md)
