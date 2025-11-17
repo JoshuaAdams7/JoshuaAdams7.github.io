@@ -4,26 +4,42 @@ layout: default
 
 [HOME](./index.md)
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# Outline
+# Analytic Rules
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
 [Incident Monitoring](./siem_projects.md)
 
-# Resources
+## Scheduled
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+These run within a defined timeframe. 
 
-[CompTIA Security+](./siem_projects.md)
+To configure this rule type head to security.microsoft.com > Sentinel > Configuration > Analytics and click on Create > Scheduled Query Rule. 
 
-[Microsoft Certified: Security Operations Analyst Associate](./siem_projects.md)
+Enter a name for the rule, leave the remaining settings as they are and click Next. 
 
-### Small image
+Enter your KQL query here. In this case we’re looking in the AuditLogs table under the OperationName column for a match against “Add user”.
 
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
+RULE QUERY IMAGE
 
-### Large image
+Leave the remaining settings as they are and click Next and do the same for the rest of the tabs as we don’t need to change anything else right now.
 
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+## Scheduled Security Events
+
+To configure this rule type head to security.microsoft.com > Sentinel > Configuration > Analytics and click on Create > Scheduled Query Rule.  
+
+Enter a name for the rule, change the MITRE dropdown to Persistence > Create or modify system process, but leave the remaining settings as they are and click Next. 
+
+Enter your KQL query here. In this case we’re looking in the SecurityEvent table under the EventID column for a match against “4688”.
+
+RULE QUERY IMAGE
+
+Change both the Run query every and Lookup data from the last settings to 5 minutes.
+
+QUERY SCHEDULING IMAGE
+
+Leave the remaining settings as they are and click Next. 
+
+Under Incident Settings enable Alert grouping, leave the remaining settings and clcik Next. 
+
+Click Next through the rest of the tabs.
