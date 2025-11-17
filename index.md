@@ -10,6 +10,8 @@ layout: default
 
 [Detections in Sentinel](./siem_projects.md)
 
+[Cloud Workload Protection](./siem_projects.md)
+
 [KQL](./siem_projects.md)
 
 [Security CoPilot](./siem_projects.md)
