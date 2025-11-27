@@ -4,7 +4,7 @@ layout: default
 
 # Projects
 
-Please take a look at my portfolio of completed mini cybersecurity projects that include the process I followed.
+Please take a look at my portfolio of cybersecurity projects.
 
 ## Sentinel & Defender
 
