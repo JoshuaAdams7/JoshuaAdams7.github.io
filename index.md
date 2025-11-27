@@ -8,26 +8,26 @@ Please take a look at my portfolio of cybersecurity projects.
 
 ## Sentinel & Defender
 
-[Incident Monitoring](./monitoring/incident_monitoring.md)
+[Incident Monitoring](./monitoring/incident_monitoring.md) - WIP
 
-[Sentinel Data Connector Configuration](./connectors/sentinel_data_connectors.md)
+[Sentinel Data Connector Configuration](./connectors/sentinel_data_connectors.md) - WIP
 
-[Detections in Sentinel](./detections/detections_in_sentinel.md)
+[Detections in Sentinel](./detections/detections_in_sentinel.md) - WIP
 
-[Cloud Workload Protection](./workoad/cloud_workload_protection.md)
+[Cloud Workload Protection](./workoad/cloud_workload_protection.md) - WIP
 
-[KQL](./kql/kql.md)
+[KQL](./kql/kql.md) - WIP
 
-[Security CoPilot](./copilot/security_copilot.md)
+[Security CoPilot](./copilot/security_copilot.md) - WIP
 
 ## Purview
 
-[Sensitivity Labels](./labels/sensitivity_labels.md)
+[Sensitivity Labels](./labels/sensitivity_labels.md) - WIP
 
-[Data Loss Prevention](./dlp/dlp.md)
+[Data Loss Prevention](./dlp/dlp.md) - WIP
 
 # Certification Guides
 
 [CompTIA Security+](./security_plus.md)
 
-[Microsoft Certified: Security Operations Analyst Associate](./sc200.md)
+[Microsoft Certified: Security Operations Analyst Associate](./sc200.md) - WIP
