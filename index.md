@@ -20,6 +20,12 @@ Please take a look at my portfolio of cybersecurity projects.
 
 [Security CoPilot](./copilot/security_copilot.md)
 
+## Purview
+
+[Sensitivity Labels](./labels/sensitivity_labels.md)
+
+[Data Loss Prevention](./dlp/dlp.md)
+
 # Certification Guides
 
 [CompTIA Security+](./security_plus.md)
