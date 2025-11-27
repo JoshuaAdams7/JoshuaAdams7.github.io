@@ -8,17 +8,17 @@ Please take a look at my portfolio of completed mini cybersecurity projects that
 
 ## Sentinel & Defender
 
-[Incident Monitoring](./siem_projects.md)
+[Incident Monitoring](./monitoring/incident_monitoring.md)
 
-[Sentinel Data Connector Configuration](./siem_projects.md)
+[Sentinel Data Connector Configuration](./connectors/sentinel_data_connectors.md)
 
-[Detections in Sentinel](./detections_in_sentinel.md)
+[Detections in Sentinel](./detections/detections_in_sentinel.md)
 
-[Cloud Workload Protection](./siem_projects.md)
+[Cloud Workload Protection](./workoad/cloud_workload_protection.md)
 
-[KQL](./siem_projects.md)
+[KQL](./kql/kql.md)
 
-[Security CoPilot](./siem_projects.md)
+[Security CoPilot](./copilot/security_copilot.md)
 
 # Certification Guides
 
