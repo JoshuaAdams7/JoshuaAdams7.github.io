@@ -30,6 +30,10 @@ Please take a look at my portfolio of cybersecurity projects.
 
 # Certification Guides
 
+## CompTIA
+
 [CompTIA Security+](./security_plus.md)
+
+## Microsoft
 
 [Microsoft Certified: Security Operations Analyst Associate](./sc200.md) - WIP
