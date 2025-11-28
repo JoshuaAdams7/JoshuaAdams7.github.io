@@ -8,6 +8,8 @@ Please take a look at my portfolio of cybersecurity projects.
 
 ## Sentinel & Defender
 
+[Power BI - Defender XDR Dashboard](./dashboard/defender_xdr_dashboard.md) - WIP
+
 [Incident Monitoring](./monitoring/incident_monitoring.md) - WIP
 
 [Sentinel Data Connector Configuration](./connectors/sentinel_data_connectors.md) - WIP
