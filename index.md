@@ -30,6 +30,8 @@ Please take a look at my portfolio of cybersecurity projects.
 
 # Certification Guides
 
+Please take a look at my quickfire certification guides that include my strategy, tips and flashcards.
+
 ## CompTIA
 
 [CompTIA Security+](./security_plus.md)
