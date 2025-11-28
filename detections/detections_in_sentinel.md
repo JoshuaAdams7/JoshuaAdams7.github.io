@@ -16,7 +16,7 @@ Enter a name for the rule, leave the remaining settings as they are and click Ne
 
 Enter your KQL query here. In this case we’re looking in the AuditLogs table under the OperationName column for a match against “Add user”.
 
-RULE QUERY IMAGE
+![Scheduled Rule Query](./scheduled_rule_query.png)
 
 Leave the remaining settings as they are and click Next and do the same for the rest of the tabs as we don’t need to change anything else right now.
 
@@ -28,11 +28,11 @@ Enter a name for the rule, change the MITRE dropdown to Persistence > Create or 
 
 Enter your KQL query here. In this case we’re looking in the SecurityEvent table under the EventID column for a match against “4688”.
 
-RULE QUERY IMAGE
+![Scheduled Security Rule Query](./scheduled_security_rule_query.png)
 
 Change both the Run query every and Lookup data from the last settings to 5 minutes.
 
-QUERY SCHEDULING IMAGE
+![Query Scheduling Config](./query_scheduling_config.png)
 
 Leave the remaining settings as they are and click Next. 
 
@@ -48,7 +48,10 @@ Enter a name for the rule, leave the remaining settings as they are and click Ne
 
 Enter your KQL query here. In this case we’re looking in the SecurityEvent table under the EventID column for a match against “4688”.
 
-QUERY RULE IMAGE
+![Near Real Time Rule Query](./near_real_time_rule_query.png)
 
 Leave the remaining settings as they are and click Next and do the same for the rest of the tabs as we don’t need to change anything else right now.
 
+# Resources
+
+* 
