@@ -14,7 +14,7 @@ Please take a look at my portfolio of cybersecurity projects.
 
 [Detections in Sentinel](./detections/detections_in_sentinel.md) - WIP
 
-[Cloud Workload Protection](./workoad/cloud_workload_protection.md) - WIP
+[Cloud Workload Protection](./workload/cloud_workload_protection.md) - WIP
 
 [KQL](./kql/kql.md) - WIP
 
