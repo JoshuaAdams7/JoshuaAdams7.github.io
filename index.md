@@ -20,6 +20,8 @@ Please take a look at my portfolio of cybersecurity projects.
 
 [Security CoPilot](./copilot/security_copilot.md) - WIP
 
+[Automated Blob Storage Malware Removal](./blobstorage/blob_storage_malware_removal.md) - WIP
+
 ## Purview
 
 [Sensitivity Labels](./labels/sensitivity_labels.md) - WIP
