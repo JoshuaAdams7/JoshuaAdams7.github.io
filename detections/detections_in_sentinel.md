@@ -54,4 +54,4 @@ Leave the remaining settings as they are and click Next and do the same for the 
 
 # Resources
 
-* 
+* [Christopher Nett's SC-200 Course](https://www.udemy.com/course/sc-200-microsoft-security-operations-analyst-r/)
