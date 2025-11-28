@@ -12,7 +12,7 @@ Please take a look at my portfolio of cybersecurity projects.
 
 [Sentinel Data Connector Configuration](./connectors/sentinel_data_connectors.md) - WIP
 
-[Detections in Sentinel](./detections/detections_in_sentinel.md) - WIP
+[Detections in Sentinel](./detections/detections_in_sentinel.md)
 
 [Cloud Workload Protection](./workload/cloud_workload_protection.md) - WIP
 
