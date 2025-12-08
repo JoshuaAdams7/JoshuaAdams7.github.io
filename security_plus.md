@@ -2,8 +2,6 @@
 layout: default
 ---
 
-[HOME](./index.md)
-
 # CompTIA Security+
 
 ![Branching](./security_plus.png)
