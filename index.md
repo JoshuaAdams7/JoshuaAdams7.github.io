@@ -8,11 +8,7 @@ Please take a look at my portfolio of cybersecurity projects.
 
 ## Sentinel & Defender
 
-[Power BI - Defender XDR Dashboard](./dashboard/defender_xdr_dashboard.md) - WIP
-
 [Incident Monitoring](./monitoring/incident_monitoring.md) - WIP
-
-[Sentinel Data Connector Configuration](./connectors/sentinel_data_connectors.md) - WIP
 
 [Detections in Sentinel](./detections/detections_in_sentinel.md)
 
@@ -21,12 +17,6 @@ Please take a look at my portfolio of cybersecurity projects.
 [Security CoPilot](./copilot/security_copilot.md) - WIP
 
 [Automated Blob Storage Malware Removal](./blobstorage/blob_storage_malware_removal.md)
-
-## Purview
-
-[Sensitivity Labels](./labels/sensitivity_labels.md) - WIP
-
-[Data Loss Prevention](./dlp/dlp.md) - WIP
 
 # Certification Guides
 
