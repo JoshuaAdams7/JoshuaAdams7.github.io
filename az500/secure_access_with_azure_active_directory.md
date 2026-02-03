@@ -110,5 +110,5 @@ Note: I haven’t included screenshots of this process for the users Jeff and Jo
 
 # Resources
 
-* TBC
+* [Microsoft Azure Security Engineer Associate (AZ-500) Professional Certificate](https://www.coursera.org/professional-certificates/microsoft-azure-security-engineer-associate)
 
