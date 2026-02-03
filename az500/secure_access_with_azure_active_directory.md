@@ -42,7 +42,7 @@ Ensure that Security is selected under Group type, enter a name for the group un
 
 Note: dynamic assignment wasn’t used in this instance but could be implemented by changing the Department attribute associated with each user entity, changing the Membership type of the group to Dynamic user, then adding a dynamic query.
 
-[IMG]
+![Create New Group 5](./create_new_group_5.png)
 
 # Enable SSPR
 
