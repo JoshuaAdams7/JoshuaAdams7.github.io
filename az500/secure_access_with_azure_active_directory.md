@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Add a New User
+# Add a new user
 
 Before proceeding, we need to check that we have sufficient privileges to be able to act on the required steps, and in this case, we need to check that we have the Global Administrator role.
 
