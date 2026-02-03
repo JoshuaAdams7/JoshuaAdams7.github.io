@@ -8,7 +8,7 @@ Before proceeding, we need to check that we have sufficient privileges to be abl
 
 Go to portal.azure.com > Entra ID (AAD) > under manage, select Roles and administrators.
 
-[IMG]
+![Admin Role Check](./admin_role_check.png)
 
 Now that we have verified that we have sufficient privileges due to the assigned role, go to Entra ID (AAD) > under manage, select Users > select New user > Create new user. 
 
