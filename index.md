@@ -8,8 +8,6 @@ Please take a look at my portfolio of cybersecurity projects.
 
 ## Sentinel & Defender
 
-[Incident Monitoring](./monitoring/incident_monitoring.md) - WIP
-
 [Detections in Sentinel](./detections/detections_in_sentinel.md)
 
 [KQL](./kql/kql.md) - WIP
@@ -18,7 +16,7 @@ Please take a look at my portfolio of cybersecurity projects.
 
 [Automated Blob Storage Malware Removal](./blobstorage/blob_storage_malware_removal.md)
 
-# Certification Guides
+# Certification Guides & Mini Projects
 
 Please take a look at my quickfire certification guides that include my strategy, tips and flashcards.
 
@@ -28,4 +26,6 @@ Please take a look at my quickfire certification guides that include my strategy
 
 ## Microsoft
 
-[Microsoft Certified: Azure Security Engineer Associate](./az500/az500.md) - WIP
+[Microsoft Certified: Azure Security Engineer Associate](./az500/az500.md)
+
+[Microsoft Certified: Security Operations Analyst Associate](./sc200.md)
