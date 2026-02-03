@@ -4,7 +4,7 @@ layout: default
 
 # Certification Guides & Mini Projects
 
-Please take a look at my quickfire certification guides that include my strategy, tips and flashcards.
+Please take a look at my quickfire certification guides that include my strategy, tips and flashcards, as well as any associated mini hands-on projects.
 
 ## CompTIA
 
