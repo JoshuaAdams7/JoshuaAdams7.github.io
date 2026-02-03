@@ -70,41 +70,41 @@ Next, we need to enable and configure MFA for a user, then proceed to test that 
 
 Go to portal.azure.com > Entra ID (AAD) > under manage, select Security > under manage, select Multifactor authentication.
 
-[IMG]
+![Enable MFA 1](./enable_mfa_1.png)
 
 Select Additional cloud-based multifactor authentication settings.
 
-[IMG]
+![Enable MFA 2](./enable_mfa_2.png)
 
 Under the Users tab, select the user you need to enable MFA for, then select Enable MFA.
 
-[IMG]
+![Enable MFA 3](./enable_mfa_3.png)
 
 Select User MFA Settings, check the box next to Require selected users to provide contact methods again, then select Save.
 
-[IMG]
+![Enable MFA 4](./enable_mfa_4.png)
 
 Open a new incognito web browser window > go to https://aka.ms/mfasetup > attempt to sign in using the user’s username and password > click next through the Let’s keep your account secure, Install Microsoft Authenticator and Set up your account in app screens.
 
-[IMG]
+![Enable MFA 5](./enable_mfa_5.png)
 
-[IMG]
+![Enable MFA 6](./enable_mfa_6.png)
 
-[IMG]
+![Enable MFA 7](./enable_mfa_7.png)
 
-[IMG]
+![Enable MFA 8](./enable_mfa_8.png)
 
 Open the Microsoft Authenticator app and scan the QR code > select Next, then enter the code presented > select Done.
 
-[IMG]
+![Enable MFA 9](./enable_mfa_9.png)
 
-[IMG]
+![Enable MFA 10](./enable_mfa_10.png)
 
-[IMG]
+![Enable MFA 11](./enable_mfa_11.png)
 
 To test that MFA is functioning as expected, close the incognito web browser window and open a new incognito web browser windows instance > go to myapps.microsoft.com > check to see if it prompts you for both your password and verification via the Microsoft Authenticator app.
 
-[IMG]
+![Enable MFA 12](./enable_mfa_12.png)
 
 Note: I haven’t included screenshots of this process for the users Jeff and John, but you’d just need to repeat steps 3 and beyond to do this. 
 
