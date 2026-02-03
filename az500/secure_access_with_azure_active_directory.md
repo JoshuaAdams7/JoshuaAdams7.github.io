@@ -12,15 +12,15 @@ Go to portal.azure.com > Entra ID (AAD) > under manage, select Roles and adminis
 
 Now that we have verified that we have sufficient privileges due to the assigned role, go to Entra ID (AAD) > under manage, select Users > select New user > Create new user. 
 
-[IMG]
+![Create New User 1](./create_new_user_1.png)
 
 On the Create new user screen, enter the name of the user in both the UPN and Display name boxes > select Review + create (leave the remaining settings as they are, but you can make a note of the automatically generated password).
 
-[IMG]
+![Create New User 2](./create_new_user_2.png)
 
 Select Create.
 
-[IMG]
+![Create New User 3](./create_new_user_3.png)
 
 Repeat the above process for Dave and Jeff’s accounts, substituting the UPN and Display name values for their respective names.
 
