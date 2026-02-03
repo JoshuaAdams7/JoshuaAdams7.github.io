@@ -50,7 +50,7 @@ Next, we need to enable the SSPR feature for the newly created security group.
 
 Got to portal.azure.com > Entra ID (AAD) > under manage, select Password reset > select the Selected option under Self service password reset enable and select the previously created DevSupport group under the Select group heading > select Save.
 
-[IMG]
+![Enable SSPR](./enable_sspr.png)
 
 [ADD SSPR CONFIG]
 
@@ -58,11 +58,11 @@ Got to portal.azure.com > Entra ID (AAD) > under manage, select Password reset >
 
 Next, we need to test that we’re able to utilize the SSPR functionality.
 
-[IMG]
+![Test SSPR 1](./test_sspr_1.png)
 
-[IMG]
+![Test SSPR 2](./test_sspr_2.png)
 
-[IMG]
+![Test SSPR 3](./test_sspr_3.png)
 
 # Enable SSPR
 
