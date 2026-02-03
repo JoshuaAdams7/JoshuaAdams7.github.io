@@ -28,4 +28,4 @@ Please take a look at my quickfire certification guides that include my strategy
 
 ## Microsoft
 
-[Microsoft Certified: Security Operations Analyst Associate](./sc200.md) - WIP
+[Microsoft Certified: Azure Security Engineer Associate](./az500/az500.md) - WIP
