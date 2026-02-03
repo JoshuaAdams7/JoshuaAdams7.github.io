@@ -26,21 +26,19 @@ Repeat the above process for Dave and Jeff’s accounts, substituting the UPN an
 
 # Create a group called DevSupport and add members
 
-![Virtual Box](./virtual_box.png)
-
 Next, we need to create a group for the new users we created in the above steps.
 
 Go to portal.azure.com > Entra ID (AAD) > under manage, select Groups > select New group.
 
-[IMG]
+![Create New Group 1](./create_new_group_1.png)
 
 Ensure that Security is selected under Group type, enter a name for the group under Group name, add a relevant description where needed into Group description, leave the Microsoft entra roles can be assigned to the group set to NO and the Membership type set to Assigned > select your own account as an Owner and the users that need to be assigned to the group as Members > select Create.
 
-[IMG]
+![Create New Group 2](./create_new_group_2.png)
 
-[IMG]
+![Create New Group 3](./create_new_group_3.png)
 
-[IMG]
+![Create New Group 4](./create_new_group_4.png)
 
 Note: dynamic assignment wasn’t used in this instance but could be implemented by changing the Department attribute associated with each user entity, changing the Membership type of the group to Dynamic user, then adding a dynamic query.
 
