@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# What's the purpose of this portfolio?
+# Purpose
 
 The goal of this portfolio is to not only demonstrate my hands-on skills, but to pass along advice to those that may be new to this area of the industry, or perhaps people that just want to advance in their careers.
 
