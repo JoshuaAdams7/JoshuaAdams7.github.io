@@ -2,6 +2,15 @@
 layout: default
 ---
 
+# Tasks
+
+* Create 3 new users.
+* Create a group and assign the newly created users to it.
+* Enable and configure SSPR for the newly created users.
+* Test that SSPR functions as expected.
+* Enable and configure MFA for the newly created users.
+* Test that MFA functions as expected.
+
 # Add a new user
 
 Before proceeding, we need to check that we have sufficient privileges to be able to act on the required steps, and in this case, we need to check that we have the Global Administrator role.
