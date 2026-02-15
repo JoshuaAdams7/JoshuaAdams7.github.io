@@ -112,15 +112,23 @@ After deployment of the VM has been completed, click on Go to resource and make 
 
 ![Admin Role Check](./admin_role_check.png)
 
-* Select the resource group that was created earlier > enter a name for the firewall > select the same region as above > select the Standard SKU option.
+* Select the resource group that was created earlier.
+* Enter a name for the firewall.
+* Select the same region as above.
+* Select the Standard SKU option.
 
 ![Admin Role Check](./admin_role_check.png)
 
-* Select the Use Firewall rules (classic) to manage this firewall option next to Firewall management > select the Use existing option next to Choose a virtual network and select the virtual network that was created earlier > create a new Public IP > uncheck the box next to Enable Firewall Management NIC.
+* Select the Use Firewall rules (classic) to manage this firewall option next to Firewall management.
+* Select the Use existing option next to Choose a virtual network and select the virtual network that was created earlier.
+* Create a new Public IP.
+* Uncheck the box next to Enable Firewall Management NIC.
 
 ![Admin Role Check](./admin_role_check.png)
 
-* Click on Review + create > Create. 
+* Click on Review.
+* Create.
+* Create. 
 
 After the firewall has been deployed, click on Go to resource and make a note of both the private and public IP addresses.
 
@@ -130,67 +138,123 @@ Note: You can click on the link provided to locate the public IP address.
 
 Next, we need to set up a default route. 
 
-* Go to portal.azure.com > Route Tables > Create.
+* Go to portal.azure.com.
+* Route Tables.
+* Create.
 
 ![Admin Role Check](./admin_role_check.png)
 
-* Select the resource group that was created earlier > enter a name for the route table > select the same region as above > click on Create + review > Create.
+* Select the resource group that was created earlier.
+* Enter a name for the route table.
+* Select the same region as above.
+* Click on Create + review.
+* Create.
 
 ![Admin Role Check](./admin_role_check.png)
 
 After deployment, click on Go to resource. 
 
-* Navigate to the Subnets tab > Associate.
+* Navigate to the Subnets tab.
+* Associate.
 
 ![Admin Role Check](./admin_role_check.png)
 
-* Select the virtual network that was created earlier > select the subnet that contains the VM > click on OK.
+* Select the virtual network that was created earlier.
+* Select the subnet that contains the VM.
+* Click on OK.
 
 ![Admin Role Check](./admin_role_check.png)
 
-* Navigate to the Routes tab > Add.
+* Navigate to the Routes tab.
+* Add.
 
 ![Admin Role Check](./admin_role_check.png)
 
-* Enter a name for the route > select IP Addresses as the Destination type > enter 0.0.0.0/0 as the CIDR range > select Virtual appliance as the Next hop type > enter the private IP address of the firewall > click on Add.
+* Enter a name for the route.
+* Select IP Addresses as the Destination type.
+* Enter 0.0.0.0/0 as the CIDR range.
+* Select Virtual appliance as the Next hop type.
+* Enter the private IP address of the firewall.
+* Click on Add.
 
 ![Admin Role Check](./admin_role_check.png)
 
-* Navigate back to the firewall > Settings tab > Rules (classic) > Application rule collection tab > Add application rule collection.
+* Navigate back to the firewall.
+* Settings tab > Rules (classic).
+* Application rule collection tab.
+* Add application rule collection.
 
 ![Admin Role Check](./admin_role_check.png)
 
-* Enter a name for the rule collection > enter a priority number > select Allow next to Action > Entera name for the Target FQDN > select IP address for Source type > enter the network address of the subnet containing the VM for Source > enter http, https for port > enter www.google.com for Target FQDNs > click on Add.
+* Enter a name for the rule collection.
+* Enter a priority number.
+* Select Allow next to Action.
+* Entera name for the Target FQDN.
+* Select IP address for Source type.
+* Enter the network address of the subnet containing the VM for Source.
+* Enter http, https for port.
+* Enter www.google.com for Target FQDNs.
+* Elick on Add.
 
 ![Admin Role Check](./admin_role_check.png)
 
 Next, we need to allow access to external DNS servers. 
 
-* Navigate back to the firewall > Settings tab > Rules (classic) > Network rule collection tab > Add network rule collection.
+* Navigate back to the firewall.
+* Settings tab.
+* Rules (classic).
+* Network rule collection tab.
+* Add network rule collection.
 
 ![Admin Role Check](./admin_role_check.png)
 
-* Enter a name for the rule collection > enter a priority number > select Allow next to Action > enter a name for the IP Address > select UPD for Protocol > select IP address for source > select IP address for Destination type > enter 209.244.0.3,209.244.0.4 for Destination Addresses > enter 53 for Destination port > click on Add.
+* Enter a name for the rule collection.
+* Enter a priority number.
+* Select Allow next to Action.
+* Enter a name for the IP Address.
+* Select UPD for Protocol.
+* Select IP address for source.
+* Select IP address for Destination type.
+* Enter 209.244.0.3,209.244.0.4 for Destination Addresses.
+* Enter 53 for Destination port.
+* Click on Add.
 
 ![Admin Role Check](./admin_role_check.png)
 
 Next, we need to set up a NAT rule to allow remote desktop connectivity to the VM. 
 
-* Navigate back to the firewall > Settings tab > Rules (classic) > NAT rule collection > Add NAT rule collection.
+* Navigate back to the firewall.
+* Settings tab > Rules (classic).
+* NAT rule collection.
+* Add NAT rule collection.
 
 ![Admin Role Check](./admin_role_check.png)
 
-* Enter a name for the rule collection > enter a priority number > enter a name for the rule > select TCP for Protocol > enter * for source > enter the firewall’s public IP address for Destination address > enter 3389 for Destination Port > enter the VM’s private IP address for Translated address > enter 3389 for Translated port > click on Add.
+* Enter a name for the rule collection.
+* Enter a priority number.
+* Enter a name for the rule.
+* Select TCP for Protocol.
+* Enter * for source.
+* Enter the firewall’s public IP address for Destination address.
+* Enter 3389 for Destination Port.
+* Enter the VM’s private IP address for Translated address.
+* Enter 3389 for Translated port.
+* Click on Add.
 
 ![Admin Role Check](./admin_role_check.png)
 
 Next, we need to update the primary and secondary DNS addresses for the VM. 
 
-* Navigate to the VM > Network Settings > click on the NIC link.
+* Navigate to the VM.
+* Network Settings.
+* Click on the NIC link.
 
 ![Admin Role Check](./admin_role_check.png)
 
-* Navigate to the DNS servers tab > select the Custom radio button under DNS servers > enter 209.244.0.3 and 209.244.0.4 > Save.
+* Navigate to the DNS servers tab.
+* Select the Custom radio button under DNS servers.
+* Enter 209.244.0.3 and 209.244.0.4.
+* Save.
 
 ![Admin Role Check](./admin_role_check.png)
 
@@ -200,11 +264,17 @@ Note: If the VM is still running, restart it.
 
 Now we need to test that the firewall works as expected. 
 
-On your local machine, hit Win Key + R > type in mstsc, then hit enter > enter the public IP address of the firewall > enter the username associated with the VM created earlier > click on Connect.
+* On your local machine, hit Win Key + R.
+* Type in mstsc, then hit enter.
+* Enter the public IP address of the firewall.
+* Enter the username associated with the VM created earlier.
+* Click on Connect.
 
 ![Admin Role Check](./admin_role_check.png)
 
-Once connected to the VM, open Edge or another browser > try to navigate to www.google.com > try to navigate to another address and note that due to there being no rule match, the action is denied.
+* Once connected to the VM, open Edge or another browser.
+* Try to navigate to www.google.com.
+* Try to navigate to another address and note that due to there being no rule match, the action is denied.
 
 ![Admin Role Check](./admin_role_check.png)
 
