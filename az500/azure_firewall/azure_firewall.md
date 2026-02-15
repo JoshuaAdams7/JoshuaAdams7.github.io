@@ -2,8 +2,6 @@
 layout: default
 ---
 
-# Tasks
-
 # Resource group creation
 
 First, we need to create a resource group to house all the resources required for this example. 
