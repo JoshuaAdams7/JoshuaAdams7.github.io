@@ -110,21 +110,21 @@ After deployment of the VM has been completed, click on Go to resource and make 
 * Firewalls.
 * Create.
 
-![Admin Role Check](./admin_role_check.png)
+![Firewall](./firewall.png)
 
 * Select the resource group that was created earlier.
 * Enter a name for the firewall.
 * Select the same region as above.
 * Select the Standard SKU option.
 
-![Admin Role Check](./admin_role_check.png)
+![Firewall 2](./firewall_2.png)
 
 * Select the Use Firewall rules (classic) to manage this firewall option next to Firewall management.
 * Select the Use existing option next to Choose a virtual network and select the virtual network that was created earlier.
 * Create a new Public IP.
 * Uncheck the box next to Enable Firewall Management NIC.
 
-![Admin Role Check](./admin_role_check.png)
+![Firewall 3](./firewall_3.png)
 
 * Click on Review.
 * Create.
@@ -132,7 +132,7 @@ After deployment of the VM has been completed, click on Go to resource and make 
 
 After the firewall has been deployed, click on Go to resource and make a note of both the private and public IP addresses.
 
-![Admin Role Check](./admin_role_check.png)
+![Firewall 4](./firewall_4.png)
 
 Note: You can click on the link provided to locate the public IP address. 
 
@@ -142,7 +142,7 @@ Next, we need to set up a default route.
 * Route Tables.
 * Create.
 
-![Admin Role Check](./admin_role_check.png)
+![Firewall 5](./firewall_5.png)
 
 * Select the resource group that was created earlier.
 * Enter a name for the route table.
@@ -150,25 +150,25 @@ Next, we need to set up a default route.
 * Click on Create + review.
 * Create.
 
-![Admin Role Check](./admin_role_check.png)
+![Firewall 6](./firewall_6.png)
 
 After deployment, click on Go to resource. 
 
 * Navigate to the Subnets tab.
 * Associate.
 
-![Admin Role Check](./admin_role_check.png)
+![Firewall 7](./firewall_7.png)
 
 * Select the virtual network that was created earlier.
 * Select the subnet that contains the VM.
 * Click on OK.
 
-![Admin Role Check](./admin_role_check.png)
+![Firewall 8](./firewall_8.png)
 
 * Navigate to the Routes tab.
 * Add.
 
-![Admin Role Check](./admin_role_check.png)
+![Firewall 9](./firewall_9.png)
 
 * Enter a name for the route.
 * Select IP Addresses as the Destination type.
@@ -177,14 +177,14 @@ After deployment, click on Go to resource.
 * Enter the private IP address of the firewall.
 * Click on Add.
 
-![Admin Role Check](./admin_role_check.png)
+![Firewall 10](./firewall_10.png)
 
 * Navigate back to the firewall.
 * Settings tab > Rules (classic).
 * Application rule collection tab.
 * Add application rule collection.
 
-![Admin Role Check](./admin_role_check.png)
+![Firewall 11](./firewall_11.png)
 
 * Enter a name for the rule collection.
 * Enter a priority number.
@@ -196,7 +196,7 @@ After deployment, click on Go to resource.
 * Enter www.google.com for Target FQDNs.
 * Elick on Add.
 
-![Admin Role Check](./admin_role_check.png)
+![Firewall 12](./firewall_12.png)
 
 Next, we need to allow access to external DNS servers. 
 
@@ -206,7 +206,7 @@ Next, we need to allow access to external DNS servers.
 * Network rule collection tab.
 * Add network rule collection.
 
-![Admin Role Check](./admin_role_check.png)
+![Firewall 13](./firewall_13.png)
 
 * Enter a name for the rule collection.
 * Enter a priority number.
@@ -219,7 +219,7 @@ Next, we need to allow access to external DNS servers.
 * Enter 53 for Destination port.
 * Click on Add.
 
-![Admin Role Check](./admin_role_check.png)
+![Firewall 14](./firewall_14.png)
 
 Next, we need to set up a NAT rule to allow remote desktop connectivity to the VM. 
 
@@ -228,7 +228,7 @@ Next, we need to set up a NAT rule to allow remote desktop connectivity to the V
 * NAT rule collection.
 * Add NAT rule collection.
 
-![Admin Role Check](./admin_role_check.png)
+![Firewall 15](./firewall_15.png)
 
 * Enter a name for the rule collection.
 * Enter a priority number.
@@ -241,7 +241,7 @@ Next, we need to set up a NAT rule to allow remote desktop connectivity to the V
 * Enter 3389 for Translated port.
 * Click on Add.
 
-![Admin Role Check](./admin_role_check.png)
+![Firewall 16](./firewall_16.png)
 
 Next, we need to update the primary and secondary DNS addresses for the VM. 
 
@@ -249,14 +249,14 @@ Next, we need to update the primary and secondary DNS addresses for the VM.
 * Network Settings.
 * Click on the NIC link.
 
-![Admin Role Check](./admin_role_check.png)
+![Firewall 17](./firewall_17.png)
 
 * Navigate to the DNS servers tab.
 * Select the Custom radio button under DNS servers.
 * Enter 209.244.0.3 and 209.244.0.4.
 * Save.
 
-![Admin Role Check](./admin_role_check.png)
+![Firewall 18](./firewall_18.png)
 
 Note: If the VM is still running, restart it.
 
