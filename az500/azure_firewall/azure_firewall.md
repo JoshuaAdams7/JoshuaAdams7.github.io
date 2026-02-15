@@ -12,14 +12,14 @@ First, we need to create a resource group to house all the resources required fo
 * Resource groups.
 * Click on Create.
 
-![Admin Role Check](./admin_role_check.png)
+![Resource Group](./resource_group.png)
 
 * Select a subscription.
 * Enter a name for the resource groupselect a region.
 * Review + create.
 * Click on Create.
 
-![Admin Role Check](./admin_role_check.png)
+![Resource Group 2](./resource_group_2.png)
 
 # Virtual network creation
 
