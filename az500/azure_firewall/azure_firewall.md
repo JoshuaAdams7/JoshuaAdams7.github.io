@@ -58,6 +58,52 @@ Next, we need to deploy a virtual network.
 
 # Creating a VM
 
+* Go to portal.azure.com.
+* Virtual machines.
+* Create.
+* Virtual machine.
+
+![Admin Role Check](./admin_role_check.png)
+
+* Under the basics tab, select the resource group from earlier.
+* Enter a name for the VM.
+* Select the same region as above.
+* Select an image to be deployed.
+* Define the VM size.
+
+![Admin Role Check](./admin_role_check.png)
+
+![Admin Role Check](./admin_role_check.png)
+
+* Choose the username and password for the administrator account attached to the VM.
+* Select None for the Public inbound ports option.
+
+![Admin Role Check](./admin_role_check.png)
+
+* Click on the Networking tab.
+* Select the virtual network that was created earlier.
+* Select the appropriate subnet.
+* Change the Public IP option to None.
+
+![Admin Role Check](./admin_role_check.png)
+
+Optionally, you can click to open the Management tab and enable the auto-shutdown feature, which may help to prevent higher costs.
+
+![Admin Role Check](./admin_role_check.png)
+
+* Click on the Monitoring tab.
+* Select the Disable option next to Boot diagnostics.
+
+![Admin Role Check](./admin_role_check.png)
+
+* Click on Review.
+* Create.
+* Create.
+
+After deployment of the VM has been completed, click on Go to resource and make a note of the Private IP attached to it.
+
+![Admin Role Check](./admin_role_check.png)
+
 # Creating a Firewall
 
 # Testing
