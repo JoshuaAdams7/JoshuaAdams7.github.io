@@ -94,8 +94,7 @@ Optionally, you can click to open the Management tab and enable the auto-shutdow
 
 ![Virtual Machine 7](./vm_7.png)
 
-* Click on Review.
-* Create.
+* Click on Review + create.
 * Create.
 
 After deployment of the VM has been completed, click on Go to resource and make a note of the Private IP attached to it.
