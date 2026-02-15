@@ -282,3 +282,4 @@ Now we need to test that the firewall works as expected.
 
 # Resources
 
+* [Microsoft Azure Security Engineer Associate (AZ-500) Professional Certificate](https://www.coursera.org/professional-certificates/microsoft-azure-security-engineer-associate)
