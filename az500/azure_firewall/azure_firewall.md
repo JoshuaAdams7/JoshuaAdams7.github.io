@@ -63,7 +63,7 @@ Next, we need to deploy a virtual network.
 * Create.
 * Virtual machine.
 
-![Admin Role Check](./admin_role_check.png)
+![Virtual Machine](./vm.png)
 
 * Under the basics tab, select the resource group from earlier.
 * Enter a name for the VM.
@@ -71,30 +71,30 @@ Next, we need to deploy a virtual network.
 * Select an image to be deployed.
 * Define the VM size.
 
-![Admin Role Check](./admin_role_check.png)
+![Virtual Machine 2](./vm_2.png)
 
-![Admin Role Check](./admin_role_check.png)
+![Virtual Machine 3](./vm_3.png)
 
 * Choose the username and password for the administrator account attached to the VM.
 * Select None for the Public inbound ports option.
 
-![Admin Role Check](./admin_role_check.png)
+![Virtual Machine 4](./vm_4.png)
 
 * Click on the Networking tab.
 * Select the virtual network that was created earlier.
 * Select the appropriate subnet.
 * Change the Public IP option to None.
 
-![Admin Role Check](./admin_role_check.png)
+![Virtual Machine 5](./vm_5.png)
 
 Optionally, you can click to open the Management tab and enable the auto-shutdown feature, which may help to prevent higher costs.
 
-![Admin Role Check](./admin_role_check.png)
+![Virtual Machine 6](./vm_6.png)
 
 * Click on the Monitoring tab.
 * Select the Disable option next to Boot diagnostics.
 
-![Admin Role Check](./admin_role_check.png)
+![Virtual Machine 7](./vm_7.png)
 
 * Click on Review.
 * Create.
@@ -102,7 +102,7 @@ Optionally, you can click to open the Management tab and enable the auto-shutdow
 
 After deployment of the VM has been completed, click on Go to resource and make a note of the Private IP attached to it.
 
-![Admin Role Check](./admin_role_check.png)
+![Virtual Machine 8](./vm_8.png)
 
 # Creating a Firewall
 
