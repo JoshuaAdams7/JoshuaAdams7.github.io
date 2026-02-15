@@ -29,7 +29,7 @@ Next, we need to deploy a virtual network.
 * Virtual networks.
 * Click on Create.
 
-![Admin Role Check](./admin_role_check.png)
+![Virtual Network](./virtual_network.png)
 
 * Select a subscription.
 * Select the resource group created earlier.
@@ -37,21 +37,21 @@ Next, we need to deploy a virtual network.
 * Enter a name for the virtual network.
 * Click on the IP Addresses tab.
 
-![Admin Role Check](./admin_role_check.png)
+![Virtual Network 2](./virtual_network_2.png)
 
 * Click on the initial default subnet name.
 * Change the subnet purpose to Azure firewall.
 * Update the IP address range as needed.
 * Click on Save.
 
-![Admin Role Check](./admin_role_check.png)
+![Virtual Network 3](./virtual_network_3.png)
 
 * Click on Add a subnet.
 * Enter a name for the subnet.
 * Update the IP address range as needed.
 * Click on Add.
 
-![Admin Role Check](./admin_role_check.png)
+![Virtual Network 4](./virtual_network_4.png)
 
 * Click on Review + create.
 * Click on Create.
