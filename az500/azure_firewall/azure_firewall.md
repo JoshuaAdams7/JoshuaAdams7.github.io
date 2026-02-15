@@ -270,15 +270,15 @@ Now we need to test that the firewall works as expected.
 * Enter the username associated with the VM created earlier.
 * Click on Connect.
 
-![Admin Role Check](./admin_role_check.png)
+![Testing](./testing.png)
 
 * Once connected to the VM, open Edge or another browser.
 * Try to navigate to www.google.com.
 * Try to navigate to another address and note that due to there being no rule match, the action is denied.
 
-![Admin Role Check](./admin_role_check.png)
+![Testing 2](./testing_2.png)
 
-![Admin Role Check](./admin_role_check.png)
+![Testing 3](./testing_3.png)
 
 # Resources
 
