@@ -6,19 +6,27 @@ layout: default
 
 In this scenario, we want to be able to prevent access to web addresses not on the approved list.
 
+# Technologies
+
+* Virtual Networks.
+* Virtual Machines.
+* Azure Firewall.
+* Route Tables.
+
 # Resource group creation
 
 First, we need to create a resource group to house all the resources required. 
 
 * Go to portal.azure.com.
-* Resource groups.
+* Navigate to Resource groups.
 * Click on Create.
 
 ![Resource Group](./resource_group.png)
 
 * Select a subscription.
-* Enter a name for the resource groupselect a region.
-* Review + create.
+* Enter a name for the resource group
+* Select a region.
+* Click on Review + create.
 * Click on Create.
 
 ![Resource Group 2](./resource_group_2.png)
@@ -28,7 +36,7 @@ First, we need to create a resource group to house all the resources required.
 Next, we need to deploy a virtual network. 
 
 * Go to portal.azure.com.
-* Virtual networks.
+* Navigate to Virtual networks.
 * Click on Create.
 
 ![Virtual Network](./virtual_network.png)
@@ -61,7 +69,7 @@ Next, we need to deploy a virtual network.
 # Creating a VM
 
 * Go to portal.azure.com.
-* Virtual machines.
+* Navigate to Virtual machines.
 * Click on Create.
 * Click on Virtual machine.
 
@@ -99,7 +107,7 @@ Optionally, you can click to open the Management tab and enable the auto-shutdow
 ![Virtual Machine 7](./vm_7.png)
 
 * Click on Review + create.
-* Create.
+* Click on Create.
 
 After deployment of the VM has been completed, click on Go to resource and make a note of the Private IP attached to it.
 
@@ -108,8 +116,8 @@ After deployment of the VM has been completed, click on Go to resource and make 
 # Creating a Firewall
 
 * Go to portal.azure.com.
-* Firewalls.
-* Create.
+* Navigate to Firewalls.
+* Click on Create.
 
 ![Firewall](./firewall.png)
 
@@ -127,9 +135,8 @@ After deployment of the VM has been completed, click on Go to resource and make 
 
 ![Firewall 3](./firewall_3.png)
 
-* Click on Review.
-* Create.
-* Create. 
+* Click on Review + create.
+* Click on Create. 
 
 After the firewall has been deployed, click on Go to resource and make a note of both the private and public IP addresses.
 
@@ -140,8 +147,8 @@ Note: You can click on the link provided to locate the public IP address.
 Next, we need to set up a default route. 
 
 * Go to portal.azure.com.
-* Route Tables.
-* Create.
+* Navigate to Route Tables.
+* Click on Create.
 
 ![Firewall 5](./firewall_5.png)
 
@@ -149,14 +156,14 @@ Next, we need to set up a default route.
 * Enter a name for the route table.
 * Select the same region as above.
 * Click on Create + review.
-* Create.
+* Click on Create.
 
 ![Firewall 6](./firewall_6.png)
 
 After deployment, click on Go to resource. 
 
 * Navigate to the Subnets tab.
-* Associate.
+* Click on Associate.
 
 ![Firewall 7](./firewall_7.png)
 
@@ -167,7 +174,7 @@ After deployment, click on Go to resource.
 ![Firewall 8](./firewall_8.png)
 
 * Navigate to the Routes tab.
-* Add.
+* Click on Add.
 
 ![Firewall 9](./firewall_9.png)
 
@@ -181,9 +188,10 @@ After deployment, click on Go to resource.
 ![Firewall 10](./firewall_10.png)
 
 * Navigate back to the firewall.
-* Settings tab > Rules (classic).
-* Application rule collection tab.
-* Add application rule collection.
+* Settings tab.
+* Rules (classic).
+* Click on the Application rule collection tab.
+* Click on Add application rule collection.
 
 ![Firewall 11](./firewall_11.png)
 
@@ -195,7 +203,7 @@ After deployment, click on Go to resource.
 * Enter the network address of the subnet containing the VM for Source.
 * Enter http, https for port.
 * Enter www.google.com for Target FQDNs.
-* Elick on Add.
+* Click on Add.
 
 ![Firewall 12](./firewall_12.png)
 
@@ -204,8 +212,8 @@ Next, we need to allow access to external DNS servers.
 * Navigate back to the firewall.
 * Settings tab.
 * Rules (classic).
-* Network rule collection tab.
-* Add network rule collection.
+* Click on the Network rule collection tab.
+* Click on Add network rule collection.
 
 ![Firewall 13](./firewall_13.png)
 
@@ -225,9 +233,10 @@ Next, we need to allow access to external DNS servers.
 Next, we need to set up a NAT rule to allow remote desktop connectivity to the VM. 
 
 * Navigate back to the firewall.
-* Settings tab > Rules (classic).
-* NAT rule collection.
-* Add NAT rule collection.
+* Settings tab,
+* Rules (classic).
+* Click on the NAT rule collection tab.
+* Click on Add NAT rule collection.
 
 ![Firewall 15](./firewall_15.png)
 
@@ -255,7 +264,7 @@ Next, we need to update the primary and secondary DNS addresses for the VM.
 * Navigate to the DNS servers tab.
 * Select the Custom radio button under DNS servers.
 * Enter 209.244.0.3 and 209.244.0.4.
-* Save.
+* Click on Save.
 
 ![Firewall 18](./firewall_18.png)
 
