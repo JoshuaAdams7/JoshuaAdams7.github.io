@@ -2,9 +2,13 @@
 layout: default
 ---
 
+# Azure Firewall
+
+In this scenario, we want to be able to prevent access to web addresses not on the approved list.
+
 # Resource group creation
 
-First, we need to create a resource group to house all the resources required for this example. 
+First, we need to create a resource group to house all the resources required. 
 
 * Go to portal.azure.com.
 * Resource groups.
@@ -37,15 +41,15 @@ Next, we need to deploy a virtual network.
 
 ![Virtual Network 2](./virtual_network_2.png)
 
-* Click on the initial default subnet name.
-* Change the subnet purpose to Azure firewall.
+* Click on the initial default subnet name link.
+* Change the subnet purpose to Azure firewall - this will be used as the network perimeter/DMZ.
 * Update the IP address range as needed.
 * Click on Save.
 
 ![Virtual Network 3](./virtual_network_3.png)
 
 * Click on Add a subnet.
-* Enter a name for the subnet.
+* Enter a name for the subnet - this will be used for the VM we'll be creating.
 * Update the IP address range as needed.
 * Click on Add.
 
@@ -58,8 +62,8 @@ Next, we need to deploy a virtual network.
 
 * Go to portal.azure.com.
 * Virtual machines.
-* Create.
-* Virtual machine.
+* Click on Create.
+* Click on Virtual machine.
 
 ![Virtual Machine](./vm.png)
 
