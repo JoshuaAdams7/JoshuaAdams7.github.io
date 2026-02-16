@@ -294,6 +294,8 @@ Now we need to test that the firewall works as expected.
 * Try to navigate to www.google.com.
 * Try to navigate to another address and note that due to there being no rule match, the action is denied.
 
+![Testing 2](./testing_2.png)
+
 ![Testing 3](./testing_3.png)
 
 # Resources
