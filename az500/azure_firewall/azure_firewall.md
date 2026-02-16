@@ -68,6 +68,8 @@ Next, we need to deploy a virtual network.
 
 # Creating a VM
 
+We're setting up a VM so that we can test that our Azure Firewalls configuration works as expected.
+
 * Go to portal.azure.com.
 * Navigate to Virtual machines.
 * Click on Create.
@@ -78,7 +80,7 @@ Next, we need to deploy a virtual network.
 * Under the basics tab, select the resource group from earlier.
 * Enter a name for the VM.
 * Select the same region as above.
-* Select an image to be deployed.
+* Select an image to be deployed - something running Windows with initial support for RDP to make our lives easier.
 * Define the VM size.
 
 ![Virtual Machine 2](./vm_2.png)
@@ -114,6 +116,8 @@ After deployment of the VM has been completed, click on Go to resource and make 
 ![Virtual Machine 8](./vm_8.png)
 
 # Creating a Firewall
+
+We need to set up Azure Firewall so that we're able to filter the traffic and only the specified domains are accessible via our VM.
 
 * Go to portal.azure.com.
 * Navigate to Firewalls.
@@ -178,14 +182,18 @@ After deployment, click on Go to resource.
 
 ![Firewall 9](./firewall_9.png)
 
+We need to set up a default route so that traffic can be sent straight to the Azure Firewall instance.
+
 * Enter a name for the route.
 * Select IP Addresses as the Destination type.
 * Enter 0.0.0.0/0 as the CIDR range.
 * Select Virtual appliance as the Next hop type.
-* Enter the private IP address of the firewall.
+* Enter the private IP address of the firewall - forces traffic using this route to be sent to the Azure Firewall instance.
 * Click on Add.
 
 ![Firewall 10](./firewall_10.png)
+
+We need to set up a rule that will allow HTTP and HTTPS traffic when trying to access www.google.com.
 
 * Navigate back to the firewall.
 * Settings tab.
@@ -207,7 +215,7 @@ After deployment, click on Go to resource.
 
 ![Firewall 12](./firewall_12.png)
 
-Next, we need to allow access to external DNS servers. 
+Next, we need to allow access to external DNS servers.
 
 * Navigate back to the firewall.
 * Settings tab.
@@ -285,8 +293,6 @@ Now we need to test that the firewall works as expected.
 * Once connected to the VM, open Edge or another browser.
 * Try to navigate to www.google.com.
 * Try to navigate to another address and note that due to there being no rule match, the action is denied.
-
-![Testing 2](./testing_2.png)
 
 ![Testing 3](./testing_3.png)
 
