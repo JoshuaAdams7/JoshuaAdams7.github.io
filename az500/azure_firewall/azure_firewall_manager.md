@@ -275,7 +275,70 @@ Next, we need to be able to allow RDP connections from the first workload VM to 
 
 # Policy Association
 
+Next, we need to associate the Firewall Policy to the secured virtual hub.
 
+* Go to portal.azure.com.
+* Navigate to Firewall Manager.
+* Click on Virtual Hubs.
+* Click on the hub that was created earlier.
+
+![Resource Group](./resource_group.png)
+
+* Click on the Security provider menu item.
+* Click on Add policy.
+
+![Resource Group](./resource_group.png)
+
+* Click on the checkbox next to the policy we just created.
+* Click on Save.
+
+![Resource Group](./resource_group.png)
+
+# Routing Traffic to the Secured Virtual Hub
+
+* Go to portal.azure.com.
+* Navigate to Firewall Manager.
+* Click on Virtual hubs.
+* Click on the hub that was created earlier.
+
+![Resource Group](./resource_group.png)
+
+* Click on the Security configuration menu item.
+* Change Internet traffic to Azure Firewall.
+* Change Private traffic to Send via Azure Firewall.
+* Change Inter-hub to Enabled .
+* Click on Save.
+* Click on OK to the warming message.
+
+![Resource Group](./resource_group.png)
+
+![Resource Group](./resource_group.png)
+
+# Testing the Firewall
+
+Next, we need to test the...
+
+* On the local machine, hit the Win + R keys.
+* Enter mstsc and hit OK.
+* Enter the public IP address of the Firewall and leverage the administrator credentials associated with the first workload VM.
+
+* Open Microsoft Edge.
+* Attempt to connect to www.microsoft.com.
+
+![Resource Group](./resource_group.png)
+
+Attempt to connect to www.google.com.
+
+![Resource Group](./resource_group.png)
+
+Next, let’s test RDP connectivity to the second workload VM.
+
+* On the first workload VM, hit Win + R keys.
+* Enter mstsc and click on OK.
+* nter the private IP of the second workload VM and the username for the administrator account associated with it.
+* Click on Connect.
+
+![Resource Group](./resource_group.png)
 
 # Resources
 
