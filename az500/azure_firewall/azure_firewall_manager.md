@@ -102,6 +102,180 @@ Note: It can take up to 30 minutes to create a secured virtual hub.
 * Click on the Virtual Hubs menu item.
 * Select the hub created earlier.
 
+![Resource Group](./resource_group.png)
+
+Click on Public IP configuration and make a note of the public IP address listed.
+
+![Resource Group](./resource_group.png)
+
+# Creating the Hub and Spoke Virtual Networks
+
+Next, we need to...
+
+* Go to portal.azure.com.
+* Navigate to the resource group created earlier.
+* Click on the VWAN resource.
+
+![Resource Group](./resource_group.png)
+
+* Navigate to Virtual network connections.
+* Click on Add connection.
+
+![Resource Group](./resource_group.png)
+
+* Enter an appropriate name for the connection.
+* Select the hub created earlier.
+* Select the resource group created earlier.
+* Select the first spoke network created earlier.
+* Click on Create.
+
+![Resource Group](./resource_group.png)
+
+* Enter an appropriate name for the connection.
+* Select the hub created earlier.
+* Select the resource group created earlier.
+* Select the second spoke network created earlier.
+* Click on Create.
+
+# Server Creation
+
+Next, we need to deploy two servers...
+
+* Go to portal.azure.com.
+* Navigate to Virtual machines.
+* Click on Ceate.
+* Click on Virtual machine.
+
+![Resource Group](./resource_group.png)
+
+* Select an appropriate subscription.
+* Select the resource group created earlier.
+* Enter a name for the VM.
+* Select the region used above.
+* Select an appropriate image for the VM – in this case, Windows Server was used.
+* Enter appropriate credentials for the admin account associated with the VM.
+* Select None next to Public inbound ports.
+
+![Resource Group](./resource_group.png)
+
+![Resource Group](./resource_group.png)
+
+* Click on the Networking tab.
+* Select the first spoke virtual network.
+* Select the first workload subnet.
+* Select None for Public IP.
+
+![Resource Group](./resource_group.png)
+
+Note: You can optionally click on the Management tab and enable the auto shutdown feature.
+
+![Resource Group](./resource_group.png)
+
+* Click on Monitoring.
+* Select Disable for the Boot diagnostics feature.
+
+![Resource Group](./resource_group.png)
+
+* Click on Review + create.
+* Click on Create.
+
+Repeat the above process but select the second spoke virtual network and the second workload subnet instead.
+
+![Resource Group](./resource_group.png)
+
+* Go to portal.azure.com.
+* Navigate to the above resource group.
+* Locate and click on each VM.
+* Network settings.
+* Note down each VM’s private IP address.
+
+![Resource Group](./resource_group.png)
+
+# Creating a Firewall Policy
+
+Next..
+
+* Go to portal.azure.com.
+* Navigate to Firewall Manager.
+* Nlick on the Azure Firewall Policies menu item.
+* Click on Create.
+
+![Resource Group](./resource_group.png)
+
+* Select the same resource group as above.
+* Enter a name for the policy.
+* Select the same region as above.
+* Modify the Policy tier to Standard.
+
+![Resource Group](./resource_group.png)
+
+* Click on the Rules tab.
+* Click on Add a rule collection.
+
+![Resource Group](./resource_group.png)
+
+* Enter a name for the rule collection.
+* Change the Rule collection type to Application.
+* Enter a priority of 100.
+* Select Allow under the Rule collection action.
+* Enter a name for the rule.
+* Select IP Address as the Source type.
+* Enter * as the Source.
+* Enter http,https under Protocol.
+* Select FQDN as the Destination Type.
+* Enter *.microsoft.com.
+* Click on Add.
+
+![Resource Group](./resource_group.png)
+
+Next, we need to add a DNAT rule so that we can connect to our first workload VM via RDP.
+
+* Click on Add a rule collection.
+* Enter a name for the rule collection.
+* Change Rule collection type to DNAT.
+* Enter 100 as the priority.
+* Enter a name for the rule.
+* Select IP Address as the Source type.
+* Enter * as the Source.
+* Select TCP as the Protocol.
+* Enter 3389 as the Destination Port.
+* Enter the public IP address of the firewall created earlier as the Destination.
+* Select IP Address as the Translated type.
+* Enter the private IP address of the first workload VM.
+* Enter 3389 as the Translated port.
+* Click on Add.
+
+![Resource Group](./resource_group.png)
+
+![Resource Group](./resource_group.png)
+
+![Resource Group](./resource_group.png)
+
+Next, we need to be able to allow RDP connections from the first workload VM to the second.
+
+* Click on Add a rule collection.
+* Enter a name for the rule collection.
+* Select Network as the Rule collection type.
+* Enter 100 as the priority.
+* Select Allow as the Rule collection action.
+* Enter a name for the rule.
+* Select IP Address as the Source type.
+* Enter * as the Source > select TCP as the Protocol.
+* Enter 3389 as the Destination Port.
+* Select IP Address as the Destination Type.
+* Enter the private IP address of the second workload VM.
+* Click on Add.
+
+![Resource Group](./resource_group.png)
+
+![Resource Group](./resource_group.png)
+
+* Click on Review + create.
+* Click on Create.
+
+# Policy Association
+
+
 
 # Resources
 
