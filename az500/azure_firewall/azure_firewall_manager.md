@@ -284,17 +284,17 @@ Next, we need to associate the Firewall Policy to the secured virtual hub.
 * Click on Virtual Hubs.
 * Click on the hub that was created earlier.
 
-![Resource Group](./resource_group.png)
+![Policy Association 1](./policy_association_1.png)
 
 * Click on the Security provider menu item.
 * Click on Add policy.
 
-![Resource Group](./resource_group.png)
+![Policy Association 2](./policy_association_2.png)
 
 * Click on the checkbox next to the policy we just created.
 * Click on Save.
 
-![Resource Group](./resource_group.png)
+![Policy Association 3](./policy_association_3.png)
 
 # Routing Traffic to the Secured Virtual Hub
 
@@ -303,7 +303,7 @@ Next, we need to associate the Firewall Policy to the secured virtual hub.
 * Click on Virtual hubs.
 * Click on the hub that was created earlier.
 
-![Resource Group](./resource_group.png)
+![Routing Traffic 1](./routing_traffic_1.png)
 
 * Click on the Security configuration menu item.
 * Change Internet traffic to Azure Firewall.
@@ -312,9 +312,9 @@ Next, we need to associate the Firewall Policy to the secured virtual hub.
 * Click on Save.
 * Click on OK to the warming message.
 
-![Resource Group](./resource_group.png)
+![Routing Traffic 2](./routing_traffic_2.png)
 
-![Resource Group](./resource_group.png)
+![Routing Traffic 3](./routing_traffic_3.png)
 
 # Testing the Firewall
 
@@ -327,11 +327,11 @@ Next, we need to test the...
 * Open Microsoft Edge.
 * Attempt to connect to www.microsoft.com.
 
-![Resource Group](./resource_group.png)
+![Firewall Testing 1](./firewall_testing_1.png)
 
 Attempt to connect to www.google.com.
 
-![Resource Group](./resource_group.png)
+![Firewall Testing 2](./firewall_testing_2.png)
 
 Next, let’s test RDP connectivity to the second workload VM.
 
@@ -340,7 +340,7 @@ Next, let’s test RDP connectivity to the second workload VM.
 * nter the private IP of the second workload VM and the username for the administrator account associated with it.
 * Click on Connect.
 
-![Resource Group](./resource_group.png)
+![Firewall Testing 3](./firewall_testing_3.png)
 
 # Resources
 
