@@ -23,7 +23,7 @@ First, we need to create two spoke virtual networks and subnets.
 * Search for virtual Networks.
 * Click on Create.
 
-![Resource Group](./resource_group.png)
+![Network Setup 1](./network_setup_1.png)
 
 * Select an appropriate subscription.
 * Click on the Create new resource group link.
@@ -33,14 +33,14 @@ First, we need to create two spoke virtual networks and subnets.
 * Select an appropriate region.
 * Click on the IP Addresses tab.
 
-![Resource Group](./resource_group.png)
+![Network Setup 2](./network_setup_2.png)
 
 * Click on the default text link under Subnets.
 * Enter a name for the subnet.
 * Modify the starting IP address.
 * Click on Save.
 
-![Resource Group](./resource_group.png)
+![Network Setup 3](./network_setup_3.png)
 
 * Click on Review + create.
 * Click on Create.
@@ -49,18 +49,18 @@ Now we need to create another virtual network.
 
 As above, select an appropriate subscription, select the same resource group, enter an appropriate name for this other virtual network instance, and select the same region as above.
 
-![Resource Group](./resource_group.png)
+![Network Setup 4](./network_setup_4.png)
 
 In the IP Addresses tab, update the IP address range.
 
-![Resource Group](./resource_group.png)
+![Network Setup 5](./network_setup_5.png)
 
 * As above, click on the default text link under Subnets.
 * Enter a name for the subnet.
 * Modify the starting IP address.
 * Click on Save.
 
-![Resource Group](./resource_group.png)
+![Network Setup 6](./network_setup_6.png)
 
 * Click on Review + create.
 * Click on Create.
