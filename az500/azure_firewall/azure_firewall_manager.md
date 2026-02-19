@@ -202,19 +202,19 @@ Next..
 * Nlick on the Azure Firewall Policies menu item.
 * Click on Create.
 
-![Resource Group](./resource_group.png)
+![Creating a Firewall 1](./creating_a_firewall_1.png)
 
 * Select the same resource group as above.
 * Enter a name for the policy.
 * Select the same region as above.
 * Modify the Policy tier to Standard.
 
-![Resource Group](./resource_group.png)
+![Creating a Firewall 2](./creating_a_firewall_2.png)
 
 * Click on the Rules tab.
 * Click on Add a rule collection.
 
-![Resource Group](./resource_group.png)
+![Creating a Firewall 3](./creating_a_firewall_3.png)
 
 * Enter a name for the rule collection.
 * Change the Rule collection type to Application.
@@ -228,7 +228,7 @@ Next..
 * Enter *.microsoft.com.
 * Click on Add.
 
-![Resource Group](./resource_group.png)
+![Creating a Firewall 4](./creating_a_firewall_4.png)
 
 Next, we need to add a DNAT rule so that we can connect to our first workload VM via RDP.
 
@@ -247,11 +247,11 @@ Next, we need to add a DNAT rule so that we can connect to our first workload VM
 * Enter 3389 as the Translated port.
 * Click on Add.
 
-![Resource Group](./resource_group.png)
+![Creating a Firewall 5](./creating_a_firewall_5.png)
 
-![Resource Group](./resource_group.png)
+![Creating a Firewall 6](./creating_a_firewall_6.png)
 
-![Resource Group](./resource_group.png)
+![Creating a Firewall 7](./creating_a_firewall_7.png)
 
 Next, we need to be able to allow RDP connections from the first workload VM to the second.
 
@@ -268,9 +268,9 @@ Next, we need to be able to allow RDP connections from the first workload VM to 
 * Enter the private IP address of the second workload VM.
 * Click on Add.
 
-![Resource Group](./resource_group.png)
+![Creating a Firewall 8](./creating_a_firewall_8.png)
 
-![Resource Group](./resource_group.png)
+![Creating a Firewall 9](./creating_a_firewall_9.png)
 
 * Click on Review + create.
 * Click on Create.
