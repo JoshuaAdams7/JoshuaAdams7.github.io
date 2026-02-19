@@ -73,7 +73,7 @@ Next, we need to create a secured virtual hub.
 * Under Secure your resources, click on Virtual Hubs.
 * Click on Create new secured virtual hub.
 
-![Resource Group](./resource_group.png)
+![secured_hub_1](./secured_hub_1.png)
 
 * Select your subscription.
 * Select the resource group created earlier.
@@ -83,7 +83,7 @@ Next, we need to create a secured virtual hub.
 * Select Standard for the type.
 * Leave the Include VPN gateway to enable Security Partner Providers unchecked.
 
-![Resource Group](./resource_group.png)
+![secured_hub_2](./secured_hub_2.png)
 
 * Click on the Azure Firewall tab.
 * Leave the default Azure Firewall setting on Enabled.
@@ -91,7 +91,7 @@ Next, we need to create a secured virtual hub.
 * In this case I’ve removed the Availability Zones that were selected.
 * Check the box next to the Default Deny Policy.
 
-![Resource Group](./resource_group.png)
+![secured_hub_3](./secured_hub_3.png)
 
 * Click on the Review + create tab.
 * Click on Create.
@@ -102,11 +102,11 @@ Note: It can take up to 30 minutes to create a secured virtual hub.
 * Click on the Virtual Hubs menu item.
 * Select the hub created earlier.
 
-![Resource Group](./resource_group.png)
+![secured_hub_4](./secured_hub_4.png)
 
 Click on Public IP configuration and make a note of the public IP address listed.
 
-![Resource Group](./resource_group.png)
+![secured_hub_5](./secured_hub_5.png)
 
 # Creating the Hub and Spoke Virtual Networks
 
