@@ -148,7 +148,7 @@ Next, we need to deploy two servers...
 * Click on Ceate.
 * Click on Virtual machine.
 
-![Resource Group](./resource_group.png)
+![Server Creation 1](./server_creation_1.png)
 
 * Select an appropriate subscription.
 * Select the resource group created earlier.
@@ -158,32 +158,32 @@ Next, we need to deploy two servers...
 * Enter appropriate credentials for the admin account associated with the VM.
 * Select None next to Public inbound ports.
 
-![Resource Group](./resource_group.png)
+![Server Creation 2](./server_creation_2.png)
 
-![Resource Group](./resource_group.png)
+![Server Creation 3](./server_creation_3.png)
 
 * Click on the Networking tab.
 * Select the first spoke virtual network.
 * Select the first workload subnet.
 * Select None for Public IP.
 
-![Resource Group](./resource_group.png)
+![Server Creation 4](./server_creation_4.png)
 
 Note: You can optionally click on the Management tab and enable the auto shutdown feature.
 
-![Resource Group](./resource_group.png)
+![Server Creation 5](./server_creation_5.png)
 
 * Click on Monitoring.
 * Select Disable for the Boot diagnostics feature.
 
-![Resource Group](./resource_group.png)
+![Server Creation 6](./server_creation_6.png)
 
 * Click on Review + create.
 * Click on Create.
 
 Repeat the above process but select the second spoke virtual network and the second workload subnet instead.
 
-![Resource Group](./resource_group.png)
+![Server Creation 7](./server_creation_7.png)
 
 * Go to portal.azure.com.
 * Navigate to the above resource group.
@@ -191,7 +191,7 @@ Repeat the above process but select the second spoke virtual network and the sec
 * Network settings.
 * Note down each VM’s private IP address.
 
-![Resource Group](./resource_group.png)
+![Server Creation 8](./server_creation_8.png)
 
 # Creating a Firewall Policy
 
