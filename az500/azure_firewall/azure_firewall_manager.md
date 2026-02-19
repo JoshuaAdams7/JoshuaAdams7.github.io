@@ -4,7 +4,7 @@ layout: default
 
 # Azure Firewall Manager
 
-In this scenario, we want to be able to prevent access to web addresses not on the approved list.
+In this scenario, we want to be able to prevent access to web addresses not on the approved list, connect two virtual networks via peering and allow remote connectivity via RDP for the VM's created.
 
 # Technologies
 
@@ -110,7 +110,7 @@ Click on Public IP configuration and make a note of the public IP address listed
 
 # Connecting the Hub and Spoke Virtual Networks
 
-Next, we need to...
+Next, we need to connect the virtual networks that were created earlier to the VWAN.
 
 * Go to portal.azure.com.
 * Navigate to the resource group created earlier.
@@ -141,7 +141,7 @@ Next, we need to...
 
 # Server Creation
 
-Next, we need to deploy two servers...
+Next, we need to deploy a server bases in each virtual network, so that we can later test firewall policy.
 
 * Go to portal.azure.com.
 * Navigate to Virtual machines.
@@ -195,7 +195,7 @@ Repeat the above process but select the second spoke virtual network and the sec
 
 # Creating a Firewall Policy
 
-Next..
+Next, we need to create a firewall policy that will house all of the rule collections (Application, DNAT and Network).
 
 * Go to portal.azure.com.
 * Navigate to Firewall Manager.
@@ -318,7 +318,7 @@ Next, we need to associate the Firewall Policy to the secured virtual hub.
 
 # Testing the Firewall
 
-Next, we need to test the...
+Next, we need to test that connectivity is working as expected.
 
 * On the local machine, hit the Win + R keys.
 * Enter mstsc and hit OK.
@@ -333,7 +333,7 @@ Attempt to connect to www.google.com.
 
 ![Firewall Testing 2](./firewall_testing_2.png)
 
-Next, let’s test RDP connectivity to the second workload VM.
+Next, we need to test RDP connectivity to the second workload VM via the first workload VM.
 
 * On the first workload VM, hit Win + R keys.
 * Enter mstsc and click on OK.
