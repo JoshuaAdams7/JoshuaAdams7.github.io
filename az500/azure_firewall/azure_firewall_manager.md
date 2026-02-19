@@ -108,7 +108,7 @@ Click on Public IP configuration and make a note of the public IP address listed
 
 ![secured_hub_5](./secured_hub_5.png)
 
-# Creating the Hub and Spoke Virtual Networks
+# Connecting the Hub and Spoke Virtual Networks
 
 Next, we need to...
 
@@ -116,12 +116,12 @@ Next, we need to...
 * Navigate to the resource group created earlier.
 * Click on the VWAN resource.
 
-![Resource Group](./resource_group.png)
+![Hub and Spoke 1](./hub_and_spoke_1.png)
 
 * Navigate to Virtual network connections.
 * Click on Add connection.
 
-![Resource Group](./resource_group.png)
+![Hub and Spoke 2](./hub_and_spoke_2.png)
 
 * Enter an appropriate name for the connection.
 * Select the hub created earlier.
@@ -129,13 +129,15 @@ Next, we need to...
 * Select the first spoke network created earlier.
 * Click on Create.
 
-![Resource Group](./resource_group.png)
+![Hub and Spoke 3](./hub_and_spoke_3.png)
 
 * Enter an appropriate name for the connection.
 * Select the hub created earlier.
 * Select the resource group created earlier.
 * Select the second spoke network created earlier.
 * Click on Create.
+
+* ![Hub and Spoke 4](./hub_and_spoke_4.png)
 
 # Server Creation
 
