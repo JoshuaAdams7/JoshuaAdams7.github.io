@@ -150,7 +150,7 @@ Open up a web browser on the VM and navigate to http://localhost/.
 
 ![IIS Server 10](./iis_server_10.png)
 
-Repeat the above process but try navigating to http://<public-ip-for-vm>.
+Repeat the above process but try navigating to http://[public-ip-for-vm].
 
 ![IIS Server 11](./iis_server_11.png)
 
@@ -181,7 +181,7 @@ Next, we need to configure an inbound NSG rule, allwoing us to connect to the we
 
 ![NSG Rule 2](./nsg_rule_2.png)
 
-Now, if we repeat the process of trying to navigate to http://<public-ip-for-vm>, it will work due to the new rule that was created. 
+Now, if we repeat the process of trying to navigate to http://[public-ip-for-vm], it will work due to the new rule that was created. 
 
 ![NSG Rule 3](./nsg_rule_3.png)
 
