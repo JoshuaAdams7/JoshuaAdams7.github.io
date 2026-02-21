@@ -162,7 +162,7 @@ Next, we need to configure an inbound NSG rule, allwoing us to connect to the we
 * Navigate back to the VM.
 * Make a note of the VM’s private IP address under Network settings. 
 
-![Resource Group](./resource_group.png)
+![NSG Rule 1](./nsg_rule_1.png)
 
 * Click on Create port rule.
 * Click on Inbound port rule.
@@ -179,11 +179,11 @@ Next, we need to configure an inbound NSG rule, allwoing us to connect to the we
 * Enter a name for the rule.
 * Click on Add.
 
-![Resource Group](./resource_group.png)
+![NSG Rule 2](./nsg_rule_2.png)
 
 Now, if we repeat the process of trying to navigate to http://<public-ip-for-vm>, it will work due to the new rule that was created. 
 
-![Resource Group](./resource_group.png)
+![NSG Rule 3](./nsg_rule_3.png)
 
 # Resources
 
