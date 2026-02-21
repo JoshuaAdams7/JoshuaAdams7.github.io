@@ -104,55 +104,55 @@ Next, we need to set up the IIS role on the newly created VM.
 * Click on Dashboard.
 * Click on Add roles and features.
 
-![Resource Group](./resource_group.png)
+![IIS Server 1](./iis_server_1.png)
 
 * Click Next on the Before you begin screen.
 * Select the Role-based or feature-based installation radio button.
 * Click on Next.
 
-![Resource Group](./resource_group.png)
+![IIS Server 2](./iis_server_2.png)
 
 * Click the Select a server from the server pool radio button.
 * Click on Next.
 
-![Resource Group](./resource_group.png)
+![IIS Server 3](./iis_server_3.png)
 
 * Select the Web Server (IIS) checkbox on the Server Roles screen.
 
-![Resource Group](./resource_group.png)
+![IIS Server 4](./iis_server_4.png)
 
 * In the Add Roles and Features Wizard popup box, click on the Include management tools checkbox.
 * Click on Add Features.
 
-![Resource Group](./resource_group.png)
+![IIS Server 5](./iis_server_5.png)
 
 * Click Next on both the Server Roles, Features, Web Server Role (IIS) and Role Services screens.
 * Click on Install on the Confirmation screen.
 
-![Resource Group](./resource_group.png)
+![IIS Server 6](./iis_server_6.png)
 
 * Once you see the 'Installation succeeded on...' message, click on Close.
 
-![Resource Group](./resource_group.png)
+![IIS Server 7](./iis_server_7.png)
 
 * Reopen the Add roles and features menu.
 * Repeat the above steps up to the Server Roles screen./
 * Select the IIS 6 Management Compatibility checkbox.
 * Click Next through the screens and eventually click on Install on the Confirmation screen.
 
-![Resource Group](./resource_group.png)
+![IIS Server 8](./iis_server_8.png)
 
-![Resource Group](./resource_group.png)
+![IIS Server 9](./iis_server_9.png)
 
 As before, click on Close after installation has finished. 
 
 Open up a web browser on the VM and navigate to http://localhost/.
 
-![Resource Group](./resource_group.png)
+![IIS Server 10](./iis_server_10.png)
 
 Repeat the above process but try navigating to http://<public-ip-for-vm>.
 
-![Resource Group](./resource_group.png)
+![IIS Server 11](./iis_server_11.png)
 
 # Adding an Inbound NSG Rule for Web (Port 80) Traffic
 
