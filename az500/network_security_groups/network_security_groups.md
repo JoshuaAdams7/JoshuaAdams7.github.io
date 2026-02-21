@@ -10,7 +10,7 @@ In this scenario, we want to be able to configure an inbound rule attached to a 
 
 * Virtual Networks.
 * Virtual Machines.
-* Network Security Groups (NSG)
+* Network Security Groups (NSG).
 
 # Setting up a VM
 
@@ -21,7 +21,7 @@ First, we need to create a resource group to house all the resources required.
 * Click on create.
 * Click on Virtual machine.
 
-![Resource Group](./resource_group.png)
+![VM Creation 1](./vm_creation_1.png)
 
 * Select an appropriate subscription.
 * Click on Create new under Resource group, enter a name for the new resource group and click on OK.
@@ -31,23 +31,23 @@ First, we need to create a resource group to house all the resources required.
 * Enter appropriate credentials for the admin account associated with the VM.
 * Select None next to Public inbound ports.
 
-![Resource Group](./resource_group.png)
+![VM Creation 2](./vm_creation_2.png)
 
-![Resource Group](./resource_group.png)
+![VM Creation 3](./vm_creation_3.png)
 
 * Click on the Networking tab.
 * Leave the default Virtual network and Subnet configuration, select Create new for Public IP and leave the defaults.
 
-![Resource Group](./resource_group.png)
+![VM Creation 4](./vm_creation_4.png)
 
 Note: You can optionally click on the Management tab and enable the auto shutdown feature.
 
-![Resource Group](./resource_group.png)
+![VM Creation 5](./vm_creation_5.png)
 
 * Click on Monitoring.
 * Select Disable for the Boot diagnostics feature.
 
-![Resource Group](./resource_group.png)
+![VM Creation 6](./vm_creation_6.png)
 
 * Click on Review + create.
 * Click on Create.
@@ -56,11 +56,11 @@ Note: You can optionally click on the Management tab and enable the auto shutdow
 * Click on Connect.
 * Click on Connect. 
 
-![Resource Group](./resource_group.png)
+![VM Creation 7](./vm_creation_7.png)
 
 * Click on Check access under Connection prerequisites.
 
-![Resource Group](./resource_group.png)
+![VM Creation 8](./vm_creation_8.png)
 
 Connectivity via port 3389 (RDP) is currently blocked because we didn’t configure this when setting up the VM. 
 
@@ -68,7 +68,7 @@ Connectivity via port 3389 (RDP) is currently blocked because we didn’t config
 * Click on Create port rule.
 * Click on Inbound port rule. 
 
-![Resource Group](./resource_group.png)
+![VM Creation 9](./vm_creation_9.png)
 
 * Select My IP address as the Source.
 * Enter * for the Source port range.
@@ -81,12 +81,12 @@ Connectivity via port 3389 (RDP) is currently blocked because we didn’t config
 * Enter a name for the rule.
 * Click on Add.
 
-![Resource Group](./resource_group.png)
+![VM Creation 10](./vm_creation_10.png)
 
 * Go back to the Connect menu item.
 * Click on Check access and you should now see that port 3389 is accessible.
 
-![Resource Group](./resource_group.png)
+![VM Creation 11](./vm_creation_11.png)
 
 * Click on Download RDP File.
 * Open the RDP file.
@@ -94,7 +94,7 @@ Connectivity via port 3389 (RDP) is currently blocked because we didn’t config
 * Enter the password for the administrator account associated with the VM.
 * Click Yes on the warning message box. 
 
-![Resource Group](./resource_group.png)
+![VM Creation 12](./vm_creation_12.png)
 
 # Installing IIS on the VM
 
