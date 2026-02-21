@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Network security Groups
+# Network Security Groups
 
 In this scenario, we want to be able to configure an inbound rule attached to a Network Security Group (NSG) to allow web traffic.
 
