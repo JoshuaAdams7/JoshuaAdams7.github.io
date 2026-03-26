@@ -136,7 +136,7 @@ Next, we need to set up the IIS role on the newly created VM.
 ![IIS Server 7](./iis_server_7.png)
 
 * Reopen the Add roles and features menu.
-* Repeat the above steps up to the Server Roles screen./
+* Repeat the above steps up to the Server Roles screen.
 * Select the IIS 6 Management Compatibility checkbox.
 * Click Next through the screens and eventually click on Install on the Confirmation screen.
 
