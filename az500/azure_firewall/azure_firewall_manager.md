@@ -145,7 +145,7 @@ Next, we need to deploy a server bases in each virtual network, so that we can l
 
 * Go to portal.azure.com.
 * Navigate to Virtual machines.
-* Click on Ceate.
+* Click on Create.
 * Click on Virtual machine.
 
 ![Server Creation 1](./server_creation_1.png)
@@ -308,7 +308,7 @@ Next, we need to associate the Firewall Policy to the secured virtual hub.
 * Click on the Security configuration menu item.
 * Change Internet traffic to Azure Firewall.
 * Change Private traffic to Send via Azure Firewall.
-* Change Inter-hub to Enabled .
+* Change Inter-hub to Enabled.
 * Click on Save.
 * Click on OK to the warming message.
 
@@ -337,7 +337,7 @@ Next, we need to test RDP connectivity to the second workload VM via the first w
 
 * On the first workload VM, hit Win + R keys.
 * Enter mstsc and click on OK.
-* nter the private IP of the second workload VM and the username for the administrator account associated with it.
+* Enter the private IP of the second workload VM and the username for the administrator account associated with it.
 * Click on Connect.
 
 ![Firewall Testing 3](./firewall_testing_3.png)
