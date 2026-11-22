@@ -2,26 +2,42 @@
 layout: default
 ---
 
-# Purpose
+# Overview
 
-The goal of this portfolio is to not only demonstrate my hands-on skills, but to pass along advice to those that may be new to this area of the industry, or perhaps people that just want to advance in their careers.
+Odynguard scans local and remote hosts over SSH. It checks them against CIS-aligned controls, tracks missing patches and vulnerabilities, and shows overall security posture on a single dashboard.
 
-# Mini Projects
+## Why was it built?
 
-Please take a look at my quickfire certification guides that include my strategy, tips and flashcards, as well as any associated mini hands-on projects.
+...
 
-## Odynguard
+# Key Features
 
-[Odynguard](./odynguard/odynguard.md)
+* Posture dashboard, which includes a configurable score with trend and change history.
+* CIS benchmark checks, plus patch and vulnerability tracking.
+* Agentless multi-host scanning over SSH.
+* Audit log of every command run, with timestamps.
+* Exceptions and risk acceptance, plus guided remediation.
+* Scheduled scans, and report export to PDF, CSV and JSON.
 
-# Certification Progress
+# Architecture
 
-## CompTIA
+...
 
-[CompTIA Security+](./security_plus.md)
+# Sample Findings
 
-## Microsoft
+...
 
-[Microsoft Certified: Azure Security Engineer Associate](./az500/az500.md)
 
-[Microsoft Certified: Security Operations Analyst Associate](./sc200/sc200.md)
+# Security Considerations
+
+* Scanning is read-only by default. remediation only runs  with explicit approval.
+* Authentication is key-based, and no credentials are stored in plain text.
+* Every scan produces a full command audit trail.
+
+## Known limitations
+
+...
+
+# Roadmap
+
+...
