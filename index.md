@@ -10,9 +10,9 @@ The goal of this portfolio is to not only demonstrate my hands-on skills, but to
 
 Please take a look at my quickfire certification guides that include my strategy, tips and flashcards, as well as any associated mini hands-on projects.
 
-## ODYNGUARD
+## Odynguard
 
-[ODYNGUARD](./odynguard/odynguard.md)
+[Odynguard](./odynguard/odynguard.md)
 
 # Certification Progress
 
