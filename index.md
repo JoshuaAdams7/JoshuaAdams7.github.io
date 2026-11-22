@@ -6,9 +6,15 @@ layout: default
 
 The goal of this portfolio is to not only demonstrate my hands-on skills, but to pass along advice to those that may be new to this area of the industry, or perhaps people that just want to advance in their careers.
 
-# Certification Guides & Mini Projects
+# Mini Projects
 
 Please take a look at my quickfire certification guides that include my strategy, tips and flashcards, as well as any associated mini hands-on projects.
+
+## ODYNGUARD
+
+[ODYNGUARD](./odynguard/odynguard.md)
+
+# Certification Progress
 
 ## CompTIA
 
