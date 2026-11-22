@@ -34,7 +34,7 @@ Odynguard scans local and remote hosts over SSH. It checks them against CIS-alig
 * Authentication is key-based, and no credentials are stored in plain text.
 * Every scan produces a full command audit trail.
 
-## Known limitations
+## Known Limitations
 
 ...
 
