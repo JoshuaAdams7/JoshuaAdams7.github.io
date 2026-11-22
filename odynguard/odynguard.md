@@ -6,7 +6,7 @@ layout: default
 
 Odynguard scans local and remote hosts over SSH. It checks them against CIS-aligned controls, tracks missing patches and vulnerabilities, and shows overall security posture on a single dashboard.
 
-## Why was it built?
+## Why Was It Built?
 
 ...
 
