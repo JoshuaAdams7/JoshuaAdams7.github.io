@@ -28,11 +28,11 @@ By extension, manual posture checks are slow and can be inconsistent, and I want
 # Sample Findings
 
 | Finding        | Severity          | Control | Remediation
-|:-------------|:------------------|:------|
-| test           | test | test  |
-| test | test   | test  |
-| test           | test      | test   |
-| test           | test | test  |
+|:-------------|:------------------|:------|:------|
+| test           | test | test  | test |
+| test | test   | test  | test |
+| test           | test      | test   | test |
+| test           | test | test  | test |
 
 
 # Security Considerations
