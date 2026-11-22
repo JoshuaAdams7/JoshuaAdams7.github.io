@@ -8,7 +8,9 @@ Odynguard scans local and remote hosts over SSH. It checks them against CIS-alig
 
 ## Why Was It Built?
 
-...
+I wanted to test whether or not leveraging AI-based services for the creation of security tooling would be viable.
+
+By extension, manual posture checks are slow and can be inconsistent, and I wanted to see how much of the security assessment process could be automated.
 
 # Key Features
 
