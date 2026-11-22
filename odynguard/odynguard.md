@@ -27,6 +27,8 @@ By extension, manual posture checks are slow and can be inconsistent, and I want
 
 # Sample Findings
 
+Run against my own lab.
+
 | Finding        | Severity          | Control | Remediation
 |:-------------|:------------------|:------|:------|
 | test           | test | test  | test |
